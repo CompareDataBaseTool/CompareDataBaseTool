@@ -1,0 +1,807 @@
+----[2015-02-02 16:43:59,568]---- 
+执行sql：alter table FOLDERINFO drop constraint DF__FOLDERINFO__第一作者__4BAC3F29;
+----[2015-02-02 16:43:59,568]---- 
+----[2015-02-02 16:43:59,574]---- 
+执行sql：alter table FOLDERINFO drop constraint DF__FOLDERINF__报告单类型__4CA06362;
+----[2015-02-02 16:43:59,574]---- 
+----[2015-02-02 16:43:59,574]---- 
+执行sql：alter table USER_LOG drop constraint DF__USER_LOG__状态__33D4B598;
+----[2015-02-02 16:43:59,574]---- 
+----[2015-02-02 16:43:59,575]---- 
+执行sql：alter table USER_LOG drop constraint DF__USER_LOG__备注__34C8D9D1;
+----[2015-02-02 16:43:59,575]---- 
+----[2015-02-02 16:43:59,575]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILEI__第一作者__6754599E;
+----[2015-02-02 16:43:59,575]---- 
+----[2015-02-02 16:43:59,576]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILE__跨语言长度__68487DD7;
+----[2015-02-02 16:43:59,576]---- 
+----[2015-02-02 16:43:59,576]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILE__跨语言相似__693CA210;
+----[2015-02-02 16:43:59,576]---- 
+----[2015-02-02 16:43:59,576]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILEI__第一作者__59FA5E80;
+----[2015-02-02 16:43:59,576]---- 
+----[2015-02-02 16:43:59,577]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILE__跨语言长度__5AEE82B9;
+----[2015-02-02 16:43:59,577]---- 
+----[2015-02-02 16:43:59,577]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILE__跨语言相似__5BE2A6F2;
+----[2015-02-02 16:43:59,577]---- 
+----[2015-02-02 16:43:59,578]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILEI__第一作者__534D60F1;
+----[2015-02-02 16:43:59,578]---- 
+----[2015-02-02 16:43:59,578]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILE__跨语言长度__5441852A;
+----[2015-02-02 16:43:59,578]---- 
+----[2015-02-02 16:43:59,578]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILE__跨语言相似__5535A963;
+----[2015-02-02 16:43:59,578]---- 
+----[2015-02-02 16:43:59,579]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILEI__第一作者__60A75C0F;
+----[2015-02-02 16:43:59,579]---- 
+----[2015-02-02 16:43:59,579]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILE__跨语言长度__619B8048;
+----[2015-02-02 16:43:59,579]---- 
+----[2015-02-02 16:43:59,580]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILE__跨语言相似__628FA481;
+----[2015-02-02 16:43:59,580]---- 
+----[2015-02-02 16:43:59,580]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__是否加入问__4316F928;
+----[2015-02-02 16:43:59,580]---- 
+----[2015-02-02 16:43:59,580]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__跨语言字数__440B1D61;
+----[2015-02-02 16:43:59,580]---- 
+----[2015-02-02 16:43:59,581]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__跨语言文字__44FF419A;
+----[2015-02-02 16:43:59,581]---- 
+----[2015-02-02 16:43:59,581]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__个人库序号__45F365D3;
+----[2015-02-02 16:43:59,581]---- 
+----[2015-02-02 16:43:59,582]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__读取状态__46E78A0C;
+----[2015-02-02 16:43:59,582]---- 
+----[2015-02-02 16:43:59,582]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__读取次数__47DBAE45;
+----[2015-02-02 16:43:59,582]---- 
+----[2015-02-02 16:43:59,583]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__检测时间范__48CFD27E;
+----[2015-02-02 16:43:59,583]---- 
+----[2015-02-02 16:43:59,583]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__校内字数__49C3F6B7;
+----[2015-02-02 16:43:59,583]---- 
+----[2015-02-02 16:43:59,584]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__校内文字复__4AB81AF0;
+----[2015-02-02 16:43:59,584]---- 
+----[2015-02-02 16:43:59,584]---- 
+执行sql：alter table PARENTFILESIM drop constraint DF__PARENTFIL__单篇最大左__38996AB5;
+----[2015-02-02 16:43:59,584]---- 
+----[2015-02-02 16:43:59,609]---- 
+执行sql：alter table USER_LOG   add constraint [DF__USER_LOG__状态__014935CB] default  (((0))) FOR [状态];
+----[2015-02-02 16:43:59,609]---- 
+----[2015-02-02 16:43:59,610]---- 
+执行sql：alter table USER_LOG   add constraint [DF__USER_LOG__备注__023D5A04] default  (('')) FOR [备注];
+----[2015-02-02 16:43:59,610]---- 
+----[2015-02-02 16:43:59,610]---- 
+执行sql：alter table PARENTFILESIM   add constraint [DF__PARENTFIL__单篇最大左__1A14E395] default  (('')) FOR [单篇最大左右文件名];
+----[2015-02-02 16:43:59,610]---- 
+----[2015-02-02 16:43:59,611]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__是否加入问__267ABA7A] default  (('0')) FOR [是否加入问题库];
+----[2015-02-02 16:43:59,611]---- 
+----[2015-02-02 16:43:59,611]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__跨语言字数__276EDEB3] default  (((-1))) FOR [跨语言字数];
+----[2015-02-02 16:43:59,611]---- 
+----[2015-02-02 16:43:59,611]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__跨语言文字__286302EC] default  (((-1))) FOR [跨语言文字复制比];
+----[2015-02-02 16:43:59,611]---- 
+----[2015-02-02 16:43:59,612]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__个人库序号__29572725] default  (((0))) FOR [个人库序号];
+----[2015-02-02 16:43:59,612]---- 
+----[2015-02-02 16:43:59,612]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__读取状态__2A4B4B5E] default  (((1))) FOR [读取状态];
+----[2015-02-02 16:43:59,612]---- 
+----[2015-02-02 16:43:59,613]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__读取次数__2B3F6F97] default  (((0))) FOR [读取次数];
+----[2015-02-02 16:43:59,613]---- 
+----[2015-02-02 16:43:59,613]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__检测时间范__2C3393D0] default  (((-1))) FOR [检测时间范围];
+----[2015-02-02 16:43:59,613]---- 
+----[2015-02-02 16:43:59,613]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__校内字数__2D27B809] default  (((-1))) FOR [校内字数];
+----[2015-02-02 16:43:59,613]---- 
+----[2015-02-02 16:43:59,614]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__校内文字复__2E1BDC42] default  (((-1))) FOR [校内文字复制比];
+----[2015-02-02 16:43:59,614]---- 
+----[2015-02-02 16:43:59,614]---- 
+执行sql：alter table FOLDERINFO   add constraint [DF__FOLDERINFO__第一作者__34C8D9D1] default  (('0')) FOR [第一作者];
+----[2015-02-02 16:43:59,614]---- 
+----[2015-02-02 16:43:59,614]---- 
+执行sql：alter table FOLDERINFO   add constraint [DF__FOLDERINF__报告单类型__35BCFE0A] default  (('1')) FOR [报告单类型];
+----[2015-02-02 16:43:59,614]---- 
+----[2015-02-02 16:43:59,615]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILEI__第一作者__47DBAE45] default  (('0')) FOR [第一作者];
+----[2015-02-02 16:43:59,615]---- 
+----[2015-02-02 16:43:59,615]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILE__跨语言长度__48CFD27E] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 16:43:59,615]---- 
+----[2015-02-02 16:43:59,616]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILE__跨语言相似__49C3F6B7] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 16:43:59,616]---- 
+----[2015-02-02 16:43:59,616]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILEI__第一作者__5070F446] default  (('0')) FOR [第一作者];
+----[2015-02-02 16:43:59,616]---- 
+----[2015-02-02 16:43:59,616]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILE__跨语言长度__5165187F] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 16:43:59,616]---- 
+----[2015-02-02 16:43:59,617]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILE__跨语言相似__52593CB8] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 16:43:59,617]---- 
+----[2015-02-02 16:43:59,617]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILEI__第一作者__59063A47] default  (('0')) FOR [第一作者];
+----[2015-02-02 16:43:59,617]---- 
+----[2015-02-02 16:43:59,618]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILE__跨语言长度__59FA5E80] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 16:43:59,618]---- 
+----[2015-02-02 16:43:59,618]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILE__跨语言相似__5AEE82B9] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 16:43:59,618]---- 
+----[2015-02-02 16:43:59,618]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILEI__第一作者__619B8048] default  (('0')) FOR [第一作者];
+----[2015-02-02 16:43:59,618]---- 
+----[2015-02-02 16:43:59,619]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILE__跨语言长度__628FA481] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 16:43:59,619]---- 
+----[2015-02-02 16:43:59,619]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILE__跨语言相似__6383C8BA] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 16:43:59,619]---- 
+----[2015-02-02 16:43:59,619]---- 
+执行sql：create  NONCLUSTERED  index  cif_xsjg on CHILDFILEINFO2 (相似结果 asc );
+----[2015-02-02 16:43:59,619]---- 
+----[2015-02-02 17:20:55,292]---- 
+执行sql：alter table FOLDERINFO drop constraint DF__FOLDERINFO__第一作者__4BAC3F29;
+----[2015-02-02 17:20:55,292]---- 
+----[2015-02-02 17:20:55,298]---- 
+执行sql：alter table FOLDERINFO drop constraint DF__FOLDERINF__报告单类型__4CA06362;
+----[2015-02-02 17:20:55,298]---- 
+----[2015-02-02 17:20:55,298]---- 
+执行sql：alter table USER_LOG drop constraint DF__USER_LOG__状态__33D4B598;
+----[2015-02-02 17:20:55,298]---- 
+----[2015-02-02 17:20:55,299]---- 
+执行sql：alter table USER_LOG drop constraint DF__USER_LOG__备注__34C8D9D1;
+----[2015-02-02 17:20:55,299]---- 
+----[2015-02-02 17:20:55,299]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILEI__第一作者__6754599E;
+----[2015-02-02 17:20:55,299]---- 
+----[2015-02-02 17:20:55,300]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILE__跨语言长度__68487DD7;
+----[2015-02-02 17:20:55,300]---- 
+----[2015-02-02 17:20:55,300]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILE__跨语言相似__693CA210;
+----[2015-02-02 17:20:55,300]---- 
+----[2015-02-02 17:20:55,300]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILEI__第一作者__59FA5E80;
+----[2015-02-02 17:20:55,300]---- 
+----[2015-02-02 17:20:55,301]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILE__跨语言长度__5AEE82B9;
+----[2015-02-02 17:20:55,301]---- 
+----[2015-02-02 17:20:55,301]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILE__跨语言相似__5BE2A6F2;
+----[2015-02-02 17:20:55,301]---- 
+----[2015-02-02 17:20:55,301]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILEI__第一作者__534D60F1;
+----[2015-02-02 17:20:55,301]---- 
+----[2015-02-02 17:20:55,302]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILE__跨语言长度__5441852A;
+----[2015-02-02 17:20:55,302]---- 
+----[2015-02-02 17:20:55,302]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILE__跨语言相似__5535A963;
+----[2015-02-02 17:20:55,302]---- 
+----[2015-02-02 17:20:55,303]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILEI__第一作者__60A75C0F;
+----[2015-02-02 17:20:55,303]---- 
+----[2015-02-02 17:20:55,303]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILE__跨语言长度__619B8048;
+----[2015-02-02 17:20:55,303]---- 
+----[2015-02-02 17:20:55,304]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILE__跨语言相似__628FA481;
+----[2015-02-02 17:20:55,304]---- 
+----[2015-02-02 17:20:55,304]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__是否加入问__4316F928;
+----[2015-02-02 17:20:55,304]---- 
+----[2015-02-02 17:20:55,304]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__跨语言字数__440B1D61;
+----[2015-02-02 17:20:55,304]---- 
+----[2015-02-02 17:20:55,305]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__跨语言文字__44FF419A;
+----[2015-02-02 17:20:55,305]---- 
+----[2015-02-02 17:20:55,305]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__个人库序号__45F365D3;
+----[2015-02-02 17:20:55,305]---- 
+----[2015-02-02 17:20:55,306]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__读取状态__46E78A0C;
+----[2015-02-02 17:20:55,306]---- 
+----[2015-02-02 17:20:55,306]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__读取次数__47DBAE45;
+----[2015-02-02 17:20:55,306]---- 
+----[2015-02-02 17:20:55,306]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__检测时间范__48CFD27E;
+----[2015-02-02 17:20:55,306]---- 
+----[2015-02-02 17:20:55,307]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__校内字数__49C3F6B7;
+----[2015-02-02 17:20:55,307]---- 
+----[2015-02-02 17:20:55,307]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__校内文字复__4AB81AF0;
+----[2015-02-02 17:20:55,307]---- 
+----[2015-02-02 17:20:55,308]---- 
+执行sql：alter table PARENTFILESIM drop constraint DF__PARENTFIL__单篇最大左__38996AB5;
+----[2015-02-02 17:20:55,308]---- 
+----[2015-02-02 17:20:55,308]---- 
+执行sql：alter table USER_LOG   add constraint [DF__USER_LOG__状态__014935CB] default  (((0))) FOR [状态];
+----[2015-02-02 17:20:55,308]---- 
+----[2015-02-02 17:20:55,308]---- 
+执行sql：alter table USER_LOG   add constraint [DF__USER_LOG__备注__023D5A04] default  (('')) FOR [备注];
+----[2015-02-02 17:20:55,308]---- 
+----[2015-02-02 17:20:55,309]---- 
+执行sql：alter table PARENTFILESIM   add constraint [DF__PARENTFIL__单篇最大左__1A14E395] default  (('')) FOR [单篇最大左右文件名];
+----[2015-02-02 17:20:55,309]---- 
+----[2015-02-02 17:20:55,309]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__是否加入问__267ABA7A] default  (('0')) FOR [是否加入问题库];
+----[2015-02-02 17:20:55,309]---- 
+----[2015-02-02 17:20:55,309]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__跨语言字数__276EDEB3] default  (((-1))) FOR [跨语言字数];
+----[2015-02-02 17:20:55,309]---- 
+----[2015-02-02 17:20:55,310]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__跨语言文字__286302EC] default  (((-1))) FOR [跨语言文字复制比];
+----[2015-02-02 17:20:55,310]---- 
+----[2015-02-02 17:20:55,310]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__个人库序号__29572725] default  (((0))) FOR [个人库序号];
+----[2015-02-02 17:20:55,310]---- 
+----[2015-02-02 17:20:55,311]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__读取状态__2A4B4B5E] default  (((1))) FOR [读取状态];
+----[2015-02-02 17:20:55,311]---- 
+----[2015-02-02 17:20:55,311]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__读取次数__2B3F6F97] default  (((0))) FOR [读取次数];
+----[2015-02-02 17:20:55,311]---- 
+----[2015-02-02 17:20:55,311]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__检测时间范__2C3393D0] default  (((-1))) FOR [检测时间范围];
+----[2015-02-02 17:20:55,311]---- 
+----[2015-02-02 17:20:55,312]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__校内字数__2D27B809] default  (((-1))) FOR [校内字数];
+----[2015-02-02 17:20:55,312]---- 
+----[2015-02-02 17:20:55,312]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__校内文字复__2E1BDC42] default  (((-1))) FOR [校内文字复制比];
+----[2015-02-02 17:20:55,312]---- 
+----[2015-02-02 17:20:55,312]---- 
+执行sql：alter table FOLDERINFO   add constraint [DF__FOLDERINFO__第一作者__34C8D9D1] default  (('0')) FOR [第一作者];
+----[2015-02-02 17:20:55,312]---- 
+----[2015-02-02 17:20:55,313]---- 
+执行sql：alter table FOLDERINFO   add constraint [DF__FOLDERINF__报告单类型__35BCFE0A] default  (('1')) FOR [报告单类型];
+----[2015-02-02 17:20:55,313]---- 
+----[2015-02-02 17:20:55,313]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILEI__第一作者__47DBAE45] default  (('0')) FOR [第一作者];
+----[2015-02-02 17:20:55,313]---- 
+----[2015-02-02 17:20:55,314]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILE__跨语言长度__48CFD27E] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 17:20:55,314]---- 
+----[2015-02-02 17:20:55,314]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILE__跨语言相似__49C3F6B7] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 17:20:55,314]---- 
+----[2015-02-02 17:20:55,314]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILEI__第一作者__5070F446] default  (('0')) FOR [第一作者];
+----[2015-02-02 17:20:55,314]---- 
+----[2015-02-02 17:20:55,314]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILE__跨语言长度__5165187F] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 17:20:55,314]---- 
+----[2015-02-02 17:20:55,315]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILE__跨语言相似__52593CB8] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 17:20:55,315]---- 
+----[2015-02-02 17:20:55,315]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILEI__第一作者__59063A47] default  (('0')) FOR [第一作者];
+----[2015-02-02 17:20:55,315]---- 
+----[2015-02-02 17:20:55,315]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILE__跨语言长度__59FA5E80] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 17:20:55,315]---- 
+----[2015-02-02 17:20:55,316]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILE__跨语言相似__5AEE82B9] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 17:20:55,316]---- 
+----[2015-02-02 17:20:55,316]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILEI__第一作者__619B8048] default  (('0')) FOR [第一作者];
+----[2015-02-02 17:20:55,316]---- 
+----[2015-02-02 17:20:55,316]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILE__跨语言长度__628FA481] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 17:20:55,316]---- 
+----[2015-02-02 17:20:55,317]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILE__跨语言相似__6383C8BA] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 17:20:55,317]---- 
+----[2015-02-02 17:20:55,317]---- 
+执行sql：create  NONCLUSTERED  index  cif_xsjg on CHILDFILEINFO2 (相似结果 asc );
+----[2015-02-02 17:20:55,317]---- 
+----[2015-02-02 17:20:55,317]---- 
+执行sql：create  NONCLUSTERED  index  cif_xsjg on CHILDFILEINFO1 (相似结果 asc );
+----[2015-02-02 17:20:55,317]---- 
+----[2015-02-02 17:33:22,957]---- 
+执行sql：alter table FOLDERINFO drop constraint DF__FOLDERINFO__第一作者__4BAC3F29;
+----[2015-02-02 17:33:22,957]---- 
+----[2015-02-02 17:33:22,964]---- 
+执行sql：alter table FOLDERINFO drop constraint DF__FOLDERINF__报告单类型__4CA06362;
+----[2015-02-02 17:33:22,964]---- 
+----[2015-02-02 17:33:22,964]---- 
+执行sql：alter table USER_LOG drop constraint DF__USER_LOG__状态__33D4B598;
+----[2015-02-02 17:33:22,964]---- 
+----[2015-02-02 17:33:22,964]---- 
+执行sql：alter table USER_LOG drop constraint DF__USER_LOG__备注__34C8D9D1;
+----[2015-02-02 17:33:22,964]---- 
+----[2015-02-02 17:33:22,965]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILEI__第一作者__6754599E;
+----[2015-02-02 17:33:22,965]---- 
+----[2015-02-02 17:33:22,965]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILE__跨语言长度__68487DD7;
+----[2015-02-02 17:33:22,965]---- 
+----[2015-02-02 17:33:22,966]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILE__跨语言相似__693CA210;
+----[2015-02-02 17:33:22,966]---- 
+----[2015-02-02 17:33:22,966]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILEI__第一作者__59FA5E80;
+----[2015-02-02 17:33:22,966]---- 
+----[2015-02-02 17:33:22,966]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILE__跨语言长度__5AEE82B9;
+----[2015-02-02 17:33:22,966]---- 
+----[2015-02-02 17:33:22,967]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILE__跨语言相似__5BE2A6F2;
+----[2015-02-02 17:33:22,967]---- 
+----[2015-02-02 17:33:22,967]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILEI__第一作者__534D60F1;
+----[2015-02-02 17:33:22,967]---- 
+----[2015-02-02 17:33:22,967]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILE__跨语言长度__5441852A;
+----[2015-02-02 17:33:22,967]---- 
+----[2015-02-02 17:33:22,968]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILE__跨语言相似__5535A963;
+----[2015-02-02 17:33:22,968]---- 
+----[2015-02-02 17:33:22,968]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILEI__第一作者__60A75C0F;
+----[2015-02-02 17:33:22,968]---- 
+----[2015-02-02 17:33:22,969]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILE__跨语言长度__619B8048;
+----[2015-02-02 17:33:22,969]---- 
+----[2015-02-02 17:33:22,969]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILE__跨语言相似__628FA481;
+----[2015-02-02 17:33:22,969]---- 
+----[2015-02-02 17:33:22,969]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__是否加入问__4316F928;
+----[2015-02-02 17:33:22,969]---- 
+----[2015-02-02 17:33:22,970]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__跨语言字数__440B1D61;
+----[2015-02-02 17:33:22,970]---- 
+----[2015-02-02 17:33:22,970]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__跨语言文字__44FF419A;
+----[2015-02-02 17:33:22,970]---- 
+----[2015-02-02 17:33:22,970]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__个人库序号__45F365D3;
+----[2015-02-02 17:33:22,970]---- 
+----[2015-02-02 17:33:22,971]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__读取状态__46E78A0C;
+----[2015-02-02 17:33:22,971]---- 
+----[2015-02-02 17:33:22,971]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__读取次数__47DBAE45;
+----[2015-02-02 17:33:22,971]---- 
+----[2015-02-02 17:33:22,971]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__检测时间范__48CFD27E;
+----[2015-02-02 17:33:22,971]---- 
+----[2015-02-02 17:33:22,972]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__校内字数__49C3F6B7;
+----[2015-02-02 17:33:22,972]---- 
+----[2015-02-02 17:33:22,972]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__校内文字复__4AB81AF0;
+----[2015-02-02 17:33:22,972]---- 
+----[2015-02-02 17:33:22,972]---- 
+执行sql：alter table PARENTFILESIM drop constraint DF__PARENTFIL__单篇最大左__38996AB5;
+----[2015-02-02 17:33:22,972]---- 
+----[2015-02-02 17:33:22,973]---- 
+执行sql：alter table USER_LOG   add constraint [DF__USER_LOG__状态__014935CB] default  (((0))) FOR [状态];
+----[2015-02-02 17:33:22,973]---- 
+----[2015-02-02 17:33:22,973]---- 
+执行sql：alter table USER_LOG   add constraint [DF__USER_LOG__备注__023D5A04] default  (('')) FOR [备注];
+----[2015-02-02 17:33:22,973]---- 
+----[2015-02-02 17:33:22,974]---- 
+执行sql：alter table PARENTFILESIM   add constraint [DF__PARENTFIL__单篇最大左__1A14E395] default  (('')) FOR [单篇最大左右文件名];
+----[2015-02-02 17:33:22,974]---- 
+----[2015-02-02 17:33:22,974]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__是否加入问__267ABA7A] default  (('0')) FOR [是否加入问题库];
+----[2015-02-02 17:33:22,974]---- 
+----[2015-02-02 17:33:22,974]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__跨语言字数__276EDEB3] default  (((-1))) FOR [跨语言字数];
+----[2015-02-02 17:33:22,974]---- 
+----[2015-02-02 17:33:22,975]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__跨语言文字__286302EC] default  (((-1))) FOR [跨语言文字复制比];
+----[2015-02-02 17:33:22,975]---- 
+----[2015-02-02 17:33:22,975]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__个人库序号__29572725] default  (((0))) FOR [个人库序号];
+----[2015-02-02 17:33:22,975]---- 
+----[2015-02-02 17:33:22,976]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__读取状态__2A4B4B5E] default  (((1))) FOR [读取状态];
+----[2015-02-02 17:33:22,976]---- 
+----[2015-02-02 17:33:22,976]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__读取次数__2B3F6F97] default  (((0))) FOR [读取次数];
+----[2015-02-02 17:33:22,976]---- 
+----[2015-02-02 17:33:22,976]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__检测时间范__2C3393D0] default  (((-1))) FOR [检测时间范围];
+----[2015-02-02 17:33:22,976]---- 
+----[2015-02-02 17:33:22,977]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__校内字数__2D27B809] default  (((-1))) FOR [校内字数];
+----[2015-02-02 17:33:22,977]---- 
+----[2015-02-02 17:33:22,977]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__校内文字复__2E1BDC42] default  (((-1))) FOR [校内文字复制比];
+----[2015-02-02 17:33:22,977]---- 
+----[2015-02-02 17:33:22,977]---- 
+执行sql：alter table FOLDERINFO   add constraint [DF__FOLDERINFO__第一作者__34C8D9D1] default  (('0')) FOR [第一作者];
+----[2015-02-02 17:33:22,977]---- 
+----[2015-02-02 17:33:22,978]---- 
+执行sql：alter table FOLDERINFO   add constraint [DF__FOLDERINF__报告单类型__35BCFE0A] default  (('1')) FOR [报告单类型];
+----[2015-02-02 17:33:22,978]---- 
+----[2015-02-02 17:33:22,978]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILEI__第一作者__47DBAE45] default  (('0')) FOR [第一作者];
+----[2015-02-02 17:33:22,978]---- 
+----[2015-02-02 17:33:22,978]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILE__跨语言长度__48CFD27E] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 17:33:22,978]---- 
+----[2015-02-02 17:33:22,979]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILE__跨语言相似__49C3F6B7] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 17:33:22,979]---- 
+----[2015-02-02 17:33:22,979]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILEI__第一作者__5070F446] default  (('0')) FOR [第一作者];
+----[2015-02-02 17:33:22,979]---- 
+----[2015-02-02 17:33:22,979]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILE__跨语言长度__5165187F] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 17:33:22,979]---- 
+----[2015-02-02 17:33:22,980]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILE__跨语言相似__52593CB8] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 17:33:22,980]---- 
+----[2015-02-02 17:33:22,980]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILEI__第一作者__59063A47] default  (('0')) FOR [第一作者];
+----[2015-02-02 17:33:22,980]---- 
+----[2015-02-02 17:33:22,981]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILE__跨语言长度__59FA5E80] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 17:33:22,981]---- 
+----[2015-02-02 17:33:22,981]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILE__跨语言相似__5AEE82B9] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 17:33:22,981]---- 
+----[2015-02-02 17:33:22,981]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILEI__第一作者__619B8048] default  (('0')) FOR [第一作者];
+----[2015-02-02 17:33:22,981]---- 
+----[2015-02-02 17:33:22,982]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILE__跨语言长度__628FA481] default  (((-1))) FOR [跨语言长度];
+----[2015-02-02 17:33:22,982]---- 
+----[2015-02-02 17:33:22,982]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILE__跨语言相似__6383C8BA] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-02 17:33:22,982]---- 
+----[2015-02-02 17:33:23,011]---- 
+执行sql：create  NONCLUSTERED  index  cif_xsjg on CHILDFILEINFO2 (相似结果 asc );
+----[2015-02-02 17:33:23,011]---- 
+----[2015-02-02 17:33:23,012]---- 
+执行sql：create  NONCLUSTERED  index  cif_xsjg on CHILDFILEINFO1 (相似结果 asc );
+----[2015-02-02 17:33:23,012]---- 
+----[2015-02-03 08:30:27,235]---- 
+执行sql：alter table FOLDERINFO drop constraint DF__FOLDERINFO__第一作者__4BAC3F29;
+----[2015-02-03 08:30:27,235]---- 
+----[2015-02-03 08:30:27,270]---- 
+执行sql：alter table FOLDERINFO drop constraint DF__FOLDERINF__报告单类型__4CA06362;
+----[2015-02-03 08:30:27,270]---- 
+----[2015-02-03 08:30:27,271]---- 
+执行sql：alter table USER_LOG drop constraint DF__USER_LOG__状态__33D4B598;
+----[2015-02-03 08:30:27,271]---- 
+----[2015-02-03 08:30:27,271]---- 
+执行sql：alter table USER_LOG drop constraint DF__USER_LOG__备注__34C8D9D1;
+----[2015-02-03 08:30:27,271]---- 
+----[2015-02-03 08:30:27,272]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILEI__第一作者__6754599E;
+----[2015-02-03 08:30:27,272]---- 
+----[2015-02-03 08:30:27,272]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILE__跨语言长度__68487DD7;
+----[2015-02-03 08:30:27,272]---- 
+----[2015-02-03 08:30:27,272]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILE__跨语言相似__693CA210;
+----[2015-02-03 08:30:27,272]---- 
+----[2015-02-03 08:30:27,273]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILEI__第一作者__59FA5E80;
+----[2015-02-03 08:30:27,273]---- 
+----[2015-02-03 08:30:27,273]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILE__跨语言长度__5AEE82B9;
+----[2015-02-03 08:30:27,273]---- 
+----[2015-02-03 08:30:27,273]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILE__跨语言相似__5BE2A6F2;
+----[2015-02-03 08:30:27,273]---- 
+----[2015-02-03 08:30:27,274]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILEI__第一作者__534D60F1;
+----[2015-02-03 08:30:27,274]---- 
+----[2015-02-03 08:30:27,274]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILE__跨语言长度__5441852A;
+----[2015-02-03 08:30:27,274]---- 
+----[2015-02-03 08:30:27,275]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILE__跨语言相似__5535A963;
+----[2015-02-03 08:30:27,275]---- 
+----[2015-02-03 08:30:27,275]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILEI__第一作者__60A75C0F;
+----[2015-02-03 08:30:27,275]---- 
+----[2015-02-03 08:30:27,275]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILE__跨语言长度__619B8048;
+----[2015-02-03 08:30:27,275]---- 
+----[2015-02-03 08:30:27,276]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILE__跨语言相似__628FA481;
+----[2015-02-03 08:30:27,276]---- 
+----[2015-02-03 08:30:27,276]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__是否加入问__4316F928;
+----[2015-02-03 08:30:27,276]---- 
+----[2015-02-03 08:30:27,276]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__跨语言字数__440B1D61;
+----[2015-02-03 08:30:27,276]---- 
+----[2015-02-03 08:30:27,277]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__跨语言文字__44FF419A;
+----[2015-02-03 08:30:27,277]---- 
+----[2015-02-03 08:30:27,277]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__个人库序号__45F365D3;
+----[2015-02-03 08:30:27,277]---- 
+----[2015-02-03 08:30:27,277]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__读取状态__46E78A0C;
+----[2015-02-03 08:30:27,277]---- 
+----[2015-02-03 08:30:27,278]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__读取次数__47DBAE45;
+----[2015-02-03 08:30:27,278]---- 
+----[2015-02-03 08:30:27,278]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__检测时间范__48CFD27E;
+----[2015-02-03 08:30:27,278]---- 
+----[2015-02-03 08:30:27,278]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__校内字数__49C3F6B7;
+----[2015-02-03 08:30:27,278]---- 
+----[2015-02-03 08:30:27,278]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__校内文字复__4AB81AF0;
+----[2015-02-03 08:30:27,278]---- 
+----[2015-02-03 08:30:27,279]---- 
+执行sql：alter table PARENTFILESIM drop constraint DF__PARENTFIL__单篇最大左__38996AB5;
+----[2015-02-03 08:30:27,279]---- 
+----[2015-02-03 08:30:27,279]---- 
+执行sql：alter table USER_LOG   add constraint [DF__USER_LOG__状态__014935CB] default  (((0))) FOR [状态];
+----[2015-02-03 08:30:27,279]---- 
+----[2015-02-03 08:30:27,280]---- 
+执行sql：alter table USER_LOG   add constraint [DF__USER_LOG__备注__023D5A04] default  (('')) FOR [备注];
+----[2015-02-03 08:30:27,280]---- 
+----[2015-02-03 08:30:27,280]---- 
+执行sql：alter table PARENTFILESIM   add constraint [DF__PARENTFIL__单篇最大左__1A14E395] default  (('')) FOR [单篇最大左右文件名];
+----[2015-02-03 08:30:27,280]---- 
+----[2015-02-03 08:30:27,280]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__是否加入问__267ABA7A] default  (('0')) FOR [是否加入问题库];
+----[2015-02-03 08:30:27,280]---- 
+----[2015-02-03 08:30:27,281]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__跨语言字数__276EDEB3] default  (((-1))) FOR [跨语言字数];
+----[2015-02-03 08:30:27,281]---- 
+----[2015-02-03 08:30:27,281]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__跨语言文字__286302EC] default  (((-1))) FOR [跨语言文字复制比];
+----[2015-02-03 08:30:27,281]---- 
+----[2015-02-03 08:30:27,281]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__个人库序号__29572725] default  (((0))) FOR [个人库序号];
+----[2015-02-03 08:30:27,281]---- 
+----[2015-02-03 08:30:27,282]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__读取状态__2A4B4B5E] default  (((1))) FOR [读取状态];
+----[2015-02-03 08:30:27,282]---- 
+----[2015-02-03 08:30:27,282]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__读取次数__2B3F6F97] default  (((0))) FOR [读取次数];
+----[2015-02-03 08:30:27,282]---- 
+----[2015-02-03 08:30:27,282]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__检测时间范__2C3393D0] default  (((-1))) FOR [检测时间范围];
+----[2015-02-03 08:30:27,282]---- 
+----[2015-02-03 08:30:27,283]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__校内字数__2D27B809] default  (((-1))) FOR [校内字数];
+----[2015-02-03 08:30:27,283]---- 
+----[2015-02-03 08:30:27,283]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__校内文字复__2E1BDC42] default  (((-1))) FOR [校内文字复制比];
+----[2015-02-03 08:30:27,283]---- 
+----[2015-02-03 08:30:27,284]---- 
+执行sql：alter table FOLDERINFO   add constraint [DF__FOLDERINFO__第一作者__34C8D9D1] default  (('0')) FOR [第一作者];
+----[2015-02-03 08:30:27,284]---- 
+----[2015-02-03 08:30:27,284]---- 
+执行sql：alter table FOLDERINFO   add constraint [DF__FOLDERINF__报告单类型__35BCFE0A] default  (('1')) FOR [报告单类型];
+----[2015-02-03 08:30:27,284]---- 
+----[2015-02-03 08:30:27,284]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILEI__第一作者__47DBAE45] default  (('0')) FOR [第一作者];
+----[2015-02-03 08:30:27,284]---- 
+----[2015-02-03 08:30:27,285]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILE__跨语言长度__48CFD27E] default  (((-1))) FOR [跨语言长度];
+----[2015-02-03 08:30:27,285]---- 
+----[2015-02-03 08:30:27,285]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILE__跨语言相似__49C3F6B7] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-03 08:30:27,285]---- 
+----[2015-02-03 08:30:27,285]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILEI__第一作者__5070F446] default  (('0')) FOR [第一作者];
+----[2015-02-03 08:30:27,285]---- 
+----[2015-02-03 08:30:27,286]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILE__跨语言长度__5165187F] default  (((-1))) FOR [跨语言长度];
+----[2015-02-03 08:30:27,286]---- 
+----[2015-02-03 08:30:27,286]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILE__跨语言相似__52593CB8] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-03 08:30:27,286]---- 
+----[2015-02-03 08:30:27,286]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILEI__第一作者__59063A47] default  (('0')) FOR [第一作者];
+----[2015-02-03 08:30:27,286]---- 
+----[2015-02-03 08:30:27,286]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILE__跨语言长度__59FA5E80] default  (((-1))) FOR [跨语言长度];
+----[2015-02-03 08:30:27,286]---- 
+----[2015-02-03 08:30:27,287]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILE__跨语言相似__5AEE82B9] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-03 08:30:27,287]---- 
+----[2015-02-03 08:30:27,287]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILEI__第一作者__619B8048] default  (('0')) FOR [第一作者];
+----[2015-02-03 08:30:27,287]---- 
+----[2015-02-03 08:30:27,287]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILE__跨语言长度__628FA481] default  (((-1))) FOR [跨语言长度];
+----[2015-02-03 08:30:27,287]---- 
+----[2015-02-03 08:30:27,288]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILE__跨语言相似__6383C8BA] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-03 08:30:27,288]---- 
+----[2015-02-03 08:30:27,316]---- 
+执行sql：create  NONCLUSTERED  index  cif_xsjg on CHILDFILEINFO2 (相似结果 asc );
+----[2015-02-03 08:30:27,316]---- 
+----[2015-02-03 08:30:27,317]---- 
+执行sql：create  NONCLUSTERED  index  cif_xsjg on CHILDFILEINFO1 (相似结果 asc );
+----[2015-02-03 08:30:27,317]---- 
+----[2015-02-04 11:50:37,256]---- 
+执行sql：alter table FOLDERINFO drop constraint DF__FOLDERINFO__第一作者__4BAC3F29;
+----[2015-02-04 11:50:37,256]---- 
+----[2015-02-04 11:50:37,275]---- 
+执行sql：alter table FOLDERINFO drop constraint DF__FOLDERINF__报告单类型__4CA06362;
+----[2015-02-04 11:50:37,275]---- 
+----[2015-02-04 11:50:37,275]---- 
+执行sql：alter table USER_LOG drop constraint DF__USER_LOG__状态__33D4B598;
+----[2015-02-04 11:50:37,275]---- 
+----[2015-02-04 11:50:37,275]---- 
+执行sql：alter table USER_LOG drop constraint DF__USER_LOG__备注__34C8D9D1;
+----[2015-02-04 11:50:37,275]---- 
+----[2015-02-04 11:50:37,276]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILEI__第一作者__6754599E;
+----[2015-02-04 11:50:37,276]---- 
+----[2015-02-04 11:50:37,276]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILE__跨语言长度__68487DD7;
+----[2015-02-04 11:50:37,276]---- 
+----[2015-02-04 11:50:37,277]---- 
+执行sql：alter table CHILDFILEINFO1 drop constraint DF__CHILDFILE__跨语言相似__693CA210;
+----[2015-02-04 11:50:37,277]---- 
+----[2015-02-04 11:50:37,277]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILEI__第一作者__59FA5E80;
+----[2015-02-04 11:50:37,277]---- 
+----[2015-02-04 11:50:37,277]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILE__跨语言长度__5AEE82B9;
+----[2015-02-04 11:50:37,277]---- 
+----[2015-02-04 11:50:37,278]---- 
+执行sql：alter table CHILDFILEINFO3 drop constraint DF__CHILDFILE__跨语言相似__5BE2A6F2;
+----[2015-02-04 11:50:37,278]---- 
+----[2015-02-04 11:50:37,278]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILEI__第一作者__534D60F1;
+----[2015-02-04 11:50:37,278]---- 
+----[2015-02-04 11:50:37,278]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILE__跨语言长度__5441852A;
+----[2015-02-04 11:50:37,278]---- 
+----[2015-02-04 11:50:37,279]---- 
+执行sql：alter table CHILDFILEINFO4 drop constraint DF__CHILDFILE__跨语言相似__5535A963;
+----[2015-02-04 11:50:37,279]---- 
+----[2015-02-04 11:50:37,279]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILEI__第一作者__60A75C0F;
+----[2015-02-04 11:50:37,279]---- 
+----[2015-02-04 11:50:37,279]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILE__跨语言长度__619B8048;
+----[2015-02-04 11:50:37,279]---- 
+----[2015-02-04 11:50:37,279]---- 
+执行sql：alter table CHILDFILEINFO2 drop constraint DF__CHILDFILE__跨语言相似__628FA481;
+----[2015-02-04 11:50:37,279]---- 
+----[2015-02-04 11:50:37,280]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__是否加入问__4316F928;
+----[2015-02-04 11:50:37,280]---- 
+----[2015-02-04 11:50:37,280]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__跨语言字数__440B1D61;
+----[2015-02-04 11:50:37,280]---- 
+----[2015-02-04 11:50:37,280]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__跨语言文字__44FF419A;
+----[2015-02-04 11:50:37,280]---- 
+----[2015-02-04 11:50:37,298]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__个人库序号__45F365D3;
+----[2015-02-04 11:50:37,298]---- 
+----[2015-02-04 11:50:37,298]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__读取状态__46E78A0C;
+----[2015-02-04 11:50:37,298]---- 
+----[2015-02-04 11:50:37,299]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__读取次数__47DBAE45;
+----[2015-02-04 11:50:37,299]---- 
+----[2015-02-04 11:50:37,299]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__检测时间范__48CFD27E;
+----[2015-02-04 11:50:37,299]---- 
+----[2015-02-04 11:50:37,299]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFILE__校内字数__49C3F6B7;
+----[2015-02-04 11:50:37,299]---- 
+----[2015-02-04 11:50:37,300]---- 
+执行sql：alter table PARENTFILEINFO drop constraint DF__PARENTFIL__校内文字复__4AB81AF0;
+----[2015-02-04 11:50:37,300]---- 
+----[2015-02-04 11:50:37,300]---- 
+执行sql：alter table PARENTFILESIM drop constraint DF__PARENTFIL__单篇最大左__38996AB5;
+----[2015-02-04 11:50:37,300]---- 
+----[2015-02-04 11:50:37,312]---- 
+执行sql：alter table USER_LOG   add constraint [DF__USER_LOG__状态__014935CB] default  (((0))) FOR [状态];
+----[2015-02-04 11:50:37,312]---- 
+----[2015-02-04 11:50:37,313]---- 
+执行sql：alter table USER_LOG   add constraint [DF__USER_LOG__备注__023D5A04] default  (('')) FOR [备注];
+----[2015-02-04 11:50:37,313]---- 
+----[2015-02-04 11:50:37,313]---- 
+执行sql：alter table PARENTFILESIM   add constraint [DF__PARENTFIL__单篇最大左__1A14E395] default  (('')) FOR [单篇最大左右文件名];
+----[2015-02-04 11:50:37,313]---- 
+----[2015-02-04 11:50:37,313]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__是否加入问__267ABA7A] default  (('0')) FOR [是否加入问题库];
+----[2015-02-04 11:50:37,313]---- 
+----[2015-02-04 11:50:37,314]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__跨语言字数__276EDEB3] default  (((-1))) FOR [跨语言字数];
+----[2015-02-04 11:50:37,314]---- 
+----[2015-02-04 11:50:37,314]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__跨语言文字__286302EC] default  (((-1))) FOR [跨语言文字复制比];
+----[2015-02-04 11:50:37,314]---- 
+----[2015-02-04 11:50:37,315]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__个人库序号__29572725] default  (((0))) FOR [个人库序号];
+----[2015-02-04 11:50:37,315]---- 
+----[2015-02-04 11:50:37,315]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__读取状态__2A4B4B5E] default  (((1))) FOR [读取状态];
+----[2015-02-04 11:50:37,315]---- 
+----[2015-02-04 11:50:37,315]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__读取次数__2B3F6F97] default  (((0))) FOR [读取次数];
+----[2015-02-04 11:50:37,315]---- 
+----[2015-02-04 11:50:37,316]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__检测时间范__2C3393D0] default  (((-1))) FOR [检测时间范围];
+----[2015-02-04 11:50:37,316]---- 
+----[2015-02-04 11:50:37,316]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFILE__校内字数__2D27B809] default  (((-1))) FOR [校内字数];
+----[2015-02-04 11:50:37,316]---- 
+----[2015-02-04 11:50:37,316]---- 
+执行sql：alter table PARENTFILEINFO   add constraint [DF__PARENTFIL__校内文字复__2E1BDC42] default  (((-1))) FOR [校内文字复制比];
+----[2015-02-04 11:50:37,316]---- 
+----[2015-02-04 11:50:37,317]---- 
+执行sql：alter table FOLDERINFO   add constraint [DF__FOLDERINFO__第一作者__34C8D9D1] default  (('0')) FOR [第一作者];
+----[2015-02-04 11:50:37,317]---- 
+----[2015-02-04 11:50:37,317]---- 
+执行sql：alter table FOLDERINFO   add constraint [DF__FOLDERINF__报告单类型__35BCFE0A] default  (('1')) FOR [报告单类型];
+----[2015-02-04 11:50:37,317]---- 
+----[2015-02-04 11:50:37,318]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILEI__第一作者__47DBAE45] default  (('0')) FOR [第一作者];
+----[2015-02-04 11:50:37,318]---- 
+----[2015-02-04 11:50:37,318]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILE__跨语言长度__48CFD27E] default  (((-1))) FOR [跨语言长度];
+----[2015-02-04 11:50:37,318]---- 
+----[2015-02-04 11:50:37,318]---- 
+执行sql：alter table CHILDFILEINFO4   add constraint [DF__CHILDFILE__跨语言相似__49C3F6B7] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-04 11:50:37,318]---- 
+----[2015-02-04 11:50:37,319]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILEI__第一作者__5070F446] default  (('0')) FOR [第一作者];
+----[2015-02-04 11:50:37,319]---- 
+----[2015-02-04 11:50:37,319]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILE__跨语言长度__5165187F] default  (((-1))) FOR [跨语言长度];
+----[2015-02-04 11:50:37,319]---- 
+----[2015-02-04 11:50:37,319]---- 
+执行sql：alter table CHILDFILEINFO3   add constraint [DF__CHILDFILE__跨语言相似__52593CB8] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-04 11:50:37,319]---- 
+----[2015-02-04 11:50:37,320]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILEI__第一作者__59063A47] default  (('0')) FOR [第一作者];
+----[2015-02-04 11:50:37,320]---- 
+----[2015-02-04 11:50:37,320]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILE__跨语言长度__59FA5E80] default  (((-1))) FOR [跨语言长度];
+----[2015-02-04 11:50:37,320]---- 
+----[2015-02-04 11:50:37,321]---- 
+执行sql：alter table CHILDFILEINFO2   add constraint [DF__CHILDFILE__跨语言相似__5AEE82B9] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-04 11:50:37,321]---- 
+----[2015-02-04 11:50:37,321]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILEI__第一作者__619B8048] default  (('0')) FOR [第一作者];
+----[2015-02-04 11:50:37,321]---- 
+----[2015-02-04 11:50:37,321]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILE__跨语言长度__628FA481] default  (((-1))) FOR [跨语言长度];
+----[2015-02-04 11:50:37,321]---- 
+----[2015-02-04 11:50:37,322]---- 
+执行sql：alter table CHILDFILEINFO1   add constraint [DF__CHILDFILE__跨语言相似__6383C8BA] default  (((-1))) FOR [跨语言相似结果];
+----[2015-02-04 11:50:37,322]---- 
+----[2015-02-04 11:50:41,485]---- 
+执行sql：create  NONCLUSTERED  index  cif_xsjg on CHILDFILEINFO2 (相似结果 asc );
+----[2015-02-04 11:50:41,485]---- 
+----[2015-02-04 11:50:41,486]---- 
+执行sql：create  NONCLUSTERED  index  cif_xsjg on CHILDFILEINFO1 (相似结果 asc );
+----[2015-02-04 11:50:41,486]---- 

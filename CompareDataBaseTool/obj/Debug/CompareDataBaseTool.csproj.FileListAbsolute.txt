@@ -1,0 +1,21 @@
+C:\Users\lzg\Documents\Visual Studio 2008\Projects\AjaxPagerServerControl\CompareDataBaseTool\CompareDataBaseTool\bin\Debug\Configs\config.xml
+C:\Users\lzg\Documents\Visual Studio 2008\Projects\AjaxPagerServerControl\CompareDataBaseTool\CompareDataBaseTool\bin\Debug\CompareDataBaseTool.exe
+C:\Users\lzg\Documents\Visual Studio 2008\Projects\AjaxPagerServerControl\CompareDataBaseTool\CompareDataBaseTool\bin\Debug\CompareDataBaseTool.pdb
+C:\Users\lzg\Documents\Visual Studio 2008\Projects\AjaxPagerServerControl\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lzg\Documents\Visual Studio 2008\Projects\AjaxPagerServerControl\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\CompareDataBaseTool.Form1.resources
+C:\Users\lzg\Documents\Visual Studio 2008\Projects\AjaxPagerServerControl\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\CompareDataBaseTool.Properties.Resources.resources
+C:\Users\lzg\Documents\Visual Studio 2008\Projects\AjaxPagerServerControl\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\CompareDataBaseTool.csproj.GenerateResource.Cache
+C:\Users\lzg\Documents\Visual Studio 2008\Projects\AjaxPagerServerControl\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\CompareDataBaseTool.exe
+C:\Users\lzg\Documents\Visual Studio 2008\Projects\AjaxPagerServerControl\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\CompareDataBaseTool.pdb
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\bin\Debug\CompareDataBaseTool.exe
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\bin\Debug\CompareDataBaseTool.pdb
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\ResolveAssemblyReference.cache
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\CompareDataBaseTool.Form1.resources
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\CompareDataBaseTool.Properties.Resources.resources
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\CompareDataBaseTool.csproj.GenerateResource.Cache
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\CompareDataBaseTool.exe
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\CompareDataBaseTool.pdb
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\bin\Debug\Configs\Log4NetConfig.xml
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\obj\Debug\CompareDataBaseTool.ProcessForm.resources
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\bin\Debug\Configs\config.xml
+E:\Tools\CompareDataBaseTool\CompareDataBaseTool\bin\Debug\Configs\config.xml.bak

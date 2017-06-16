@@ -1,0 +1,1174 @@
+----[2017-05-11 17:19:15,376]---- 
+执行sql：alter table PROJECT_ASSIGN drop constraint DF__PROJECT_AS__学校编号__14270015;
+----[2017-05-11 17:19:15,376]---- 
+----[2017-05-11 17:19:15,391]---- 
+执行sql：alter table PROJECT_ASSIGN drop constraint DF__PROJECT_AS__学院编号__151B244E;
+----[2017-05-11 17:19:15,391]---- 
+----[2017-05-11 17:19:15,394]---- 
+执行sql：alter table PROJECTS drop constraint DF__PROJECTS__允许修改__19DFD96B;
+----[2017-05-11 17:19:15,394]---- 
+----[2017-05-11 17:19:15,397]---- 
+执行sql：alter table PROJECTS_PROPOSALS drop constraint DF__PROJECTS_P__检测状态__208CD6FA;
+----[2017-05-11 17:19:15,397]---- 
+----[2017-05-11 17:19:15,400]---- 
+执行sql：alter table PROJECTS_THESES drop constraint DF__PROJECTS_T__检测状态__25518C17;
+----[2017-05-11 17:19:15,400]---- 
+----[2017-05-11 17:19:15,402]---- 
+执行sql：alter table PROJECTS_TRANSLATIONS drop constraint DF__PROJECTS_T__检测状态__29221CFB;
+----[2017-05-11 17:19:15,402]---- 
+----[2017-05-11 17:19:15,405]---- 
+执行sql：alter table ReviewStudent drop constraint DF__ReviewStud__课题编号__2B0A656D;
+----[2017-05-11 17:19:15,405]---- 
+----[2017-05-11 17:19:15,408]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWEI__指导成绩__2BFE89A6;
+----[2017-05-11 17:19:15,408]---- 
+----[2017-05-11 17:19:15,411]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWEI__评阅成绩__2CF2ADDF;
+----[2017-05-11 17:19:15,411]---- 
+----[2017-05-11 17:19:15,414]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWEI__答辩成绩__2DE6D218;
+----[2017-05-11 17:19:15,414]---- 
+----[2017-05-11 17:19:15,416]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWE__评阅专家成__2EDAF651;
+----[2017-05-11 17:19:15,416]---- 
+----[2017-05-11 17:19:15,419]---- 
+执行sql：alter table SPECIALTIES drop constraint DF__SPECIALTIES__科别__32AB8735;
+----[2017-05-11 17:19:15,419]---- 
+----[2017-05-11 17:19:15,422]---- 
+执行sql：alter table STUDENTS_SPECIALTIES drop constraint DF__STUDENTS_SPE__资格__395884C4;
+----[2017-05-11 17:19:15,422]---- 
+----[2017-05-11 17:19:15,424]---- 
+执行sql：alter table STUDENTS_SPECIALTIES drop constraint DF__STUDENTS_S__上传次数__3B40CD36;
+----[2017-05-11 17:19:15,424]---- 
+----[2017-05-11 17:19:15,427]---- 
+执行sql：alter table STUDENTS_SPECIALTIES drop constraint DF__STUDENTS_S__检测次数__3C34F16F;
+----[2017-05-11 17:19:15,427]---- 
+----[2017-05-11 17:19:15,430]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__成绩模式__3D2915A8;
+----[2017-05-11 17:19:15,430]---- 
+----[2017-05-11 17:19:15,432]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__课题模式__3E1D39E1;
+----[2017-05-11 17:19:15,432]---- 
+----[2017-05-11 17:19:15,435]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__任务书模式__3F115E1A;
+----[2017-05-11 17:19:15,435]---- 
+----[2017-05-11 17:19:15,438]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__任务书提交__40058253;
+----[2017-05-11 17:19:15,438]---- 
+----[2017-05-11 17:19:15,440]---- 
+执行sql：alter table TASK_ASSIGN drop constraint DF__TASK_ASSIG__学院编号__40F9A68C;
+----[2017-05-11 17:19:15,440]---- 
+----[2017-05-11 17:19:15,442]---- 
+执行sql：alter table TASK_ASSIGN drop constraint DF__TASK_ASSIG__学校编号__41EDCAC5;
+----[2017-05-11 17:19:15,442]---- 
+----[2017-05-11 17:19:15,446]---- 
+执行sql：alter table TEACHERS drop constraint DF__TEACHERS__评阅专家__498EEC8D;
+----[2017-05-11 17:19:15,446]---- 
+----[2017-05-11 17:19:15,448]---- 
+执行sql：alter table TEACHERS drop constraint DF__TEACHERS__教师类型__4A8310C6;
+----[2017-05-11 17:19:15,448]---- 
+----[2017-05-11 17:19:15,451]---- 
+执行sql：alter table THESIS_ASSIGN drop constraint DF__THESIS_ASS__学院编号__4B7734FF;
+----[2017-05-11 17:19:15,451]---- 
+----[2017-05-11 17:19:15,453]---- 
+执行sql：alter table THESIS_ASSIGN drop constraint DF__THESIS_ASS__学校编号__4C6B5938;
+----[2017-05-11 17:19:15,453]---- 
+----[2017-05-11 17:19:15,536]---- 
+异常SQL语句为：drop table 1281qiaqizhongjie;||异常信息为：System.Data.SqlClient.SqlException: '1281' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CompareDataBaseTool.DBHelper.ExecuteTrans(List`1 sqlList, String& errorMsg) 位置 f:\源代码TFS\CPKFB\CompareDataBaseTool\CompareDataBaseTool\DBHelper.cs:行号 78
+----[2017-05-11 17:19:15,536]---- 
+----[2017-05-11 17:24:24,436]---- 
+执行sql：alter table PROJECT_ASSIGN drop constraint DF__PROJECT_AS__学校编号__14270015;
+----[2017-05-11 17:24:24,436]---- 
+----[2017-05-11 17:24:24,444]---- 
+执行sql：alter table PROJECT_ASSIGN drop constraint DF__PROJECT_AS__学院编号__151B244E;
+----[2017-05-11 17:24:24,444]---- 
+----[2017-05-11 17:24:24,447]---- 
+执行sql：alter table PROJECTS drop constraint DF__PROJECTS__允许修改__19DFD96B;
+----[2017-05-11 17:24:24,447]---- 
+----[2017-05-11 17:24:24,449]---- 
+执行sql：alter table PROJECTS_PROPOSALS drop constraint DF__PROJECTS_P__检测状态__208CD6FA;
+----[2017-05-11 17:24:24,449]---- 
+----[2017-05-11 17:24:24,452]---- 
+执行sql：alter table PROJECTS_THESES drop constraint DF__PROJECTS_T__检测状态__25518C17;
+----[2017-05-11 17:24:24,452]---- 
+----[2017-05-11 17:24:24,454]---- 
+执行sql：alter table PROJECTS_TRANSLATIONS drop constraint DF__PROJECTS_T__检测状态__29221CFB;
+----[2017-05-11 17:24:24,454]---- 
+----[2017-05-11 17:24:24,457]---- 
+执行sql：alter table ReviewStudent drop constraint DF__ReviewStud__课题编号__2B0A656D;
+----[2017-05-11 17:24:24,457]---- 
+----[2017-05-11 17:24:24,460]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWEI__指导成绩__2BFE89A6;
+----[2017-05-11 17:24:24,460]---- 
+----[2017-05-11 17:24:24,463]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWEI__评阅成绩__2CF2ADDF;
+----[2017-05-11 17:24:24,463]---- 
+----[2017-05-11 17:24:24,465]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWEI__答辩成绩__2DE6D218;
+----[2017-05-11 17:24:24,465]---- 
+----[2017-05-11 17:24:24,468]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWE__评阅专家成__2EDAF651;
+----[2017-05-11 17:24:24,468]---- 
+----[2017-05-11 17:24:24,470]---- 
+执行sql：alter table SPECIALTIES drop constraint DF__SPECIALTIES__科别__32AB8735;
+----[2017-05-11 17:24:24,470]---- 
+----[2017-05-11 17:24:24,473]---- 
+执行sql：alter table STUDENTS_SPECIALTIES drop constraint DF__STUDENTS_SPE__资格__395884C4;
+----[2017-05-11 17:24:24,473]---- 
+----[2017-05-11 17:24:24,476]---- 
+执行sql：alter table STUDENTS_SPECIALTIES drop constraint DF__STUDENTS_S__上传次数__3B40CD36;
+----[2017-05-11 17:24:24,476]---- 
+----[2017-05-11 17:24:24,478]---- 
+执行sql：alter table STUDENTS_SPECIALTIES drop constraint DF__STUDENTS_S__检测次数__3C34F16F;
+----[2017-05-11 17:24:24,478]---- 
+----[2017-05-11 17:24:24,480]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__成绩模式__3D2915A8;
+----[2017-05-11 17:24:24,480]---- 
+----[2017-05-11 17:24:24,484]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__课题模式__3E1D39E1;
+----[2017-05-11 17:24:24,484]---- 
+----[2017-05-11 17:24:24,486]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__任务书模式__3F115E1A;
+----[2017-05-11 17:24:24,486]---- 
+----[2017-05-11 17:24:24,489]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__任务书提交__40058253;
+----[2017-05-11 17:24:24,489]---- 
+----[2017-05-11 17:24:24,492]---- 
+执行sql：alter table TASK_ASSIGN drop constraint DF__TASK_ASSIG__学院编号__40F9A68C;
+----[2017-05-11 17:24:24,492]---- 
+----[2017-05-11 17:24:24,495]---- 
+执行sql：alter table TASK_ASSIGN drop constraint DF__TASK_ASSIG__学校编号__41EDCAC5;
+----[2017-05-11 17:24:24,495]---- 
+----[2017-05-11 17:24:24,498]---- 
+执行sql：alter table TEACHERS drop constraint DF__TEACHERS__评阅专家__498EEC8D;
+----[2017-05-11 17:24:24,498]---- 
+----[2017-05-11 17:24:24,500]---- 
+执行sql：alter table TEACHERS drop constraint DF__TEACHERS__教师类型__4A8310C6;
+----[2017-05-11 17:24:24,500]---- 
+----[2017-05-11 17:24:24,503]---- 
+执行sql：alter table THESIS_ASSIGN drop constraint DF__THESIS_ASS__学院编号__4B7734FF;
+----[2017-05-11 17:24:24,503]---- 
+----[2017-05-11 17:24:24,505]---- 
+执行sql：alter table THESIS_ASSIGN drop constraint DF__THESIS_ASS__学校编号__4C6B5938;
+----[2017-05-11 17:24:24,505]---- 
+----[2017-05-11 17:24:24,509]---- 
+执行sql：drop table [1281qiaqizhongjie];
+----[2017-05-11 17:24:24,509]---- 
+----[2017-05-11 17:24:24,512]---- 
+执行sql：drop table [1281zhongqi];
+----[2017-05-11 17:24:24,512]---- 
+----[2017-05-11 17:24:24,515]---- 
+执行sql：drop table [1281zhongqizongjie];
+----[2017-05-11 17:24:24,515]---- 
+----[2017-05-11 17:24:24,517]---- 
+执行sql：drop index [s] on ACADEMIES;
+----[2017-05-11 17:24:24,517]---- 
+----[2017-05-11 17:24:24,519]---- 
+执行sql：drop index [22] on DICTIONARIES;
+----[2017-05-11 17:24:24,519]---- 
+----[2017-05-11 17:24:24,521]---- 
+执行sql：drop index [33] on DICTIONARIES;
+----[2017-05-11 17:24:24,521]---- 
+----[2017-05-11 17:24:24,523]---- 
+执行sql：drop index [44] on DICTIONARIES;
+----[2017-05-11 17:24:24,523]---- 
+----[2017-05-11 17:24:24,525]---- 
+执行sql：drop index [s] on DICTIONARIES;
+----[2017-05-11 17:24:24,525]---- 
+----[2017-05-11 17:24:24,527]---- 
+执行sql：drop index [s] on OPERATE_LOG;
+----[2017-05-11 17:24:24,527]---- 
+----[2017-05-11 17:24:27,227]---- 
+执行sql：drop index [kt] on OPERATION_LOG;
+----[2017-05-11 17:24:27,227]---- 
+----[2017-05-11 17:24:27,229]---- 
+执行sql：drop index [cz] on OPERATION_LOG;
+----[2017-05-11 17:24:27,229]---- 
+----[2017-05-11 17:24:27,231]---- 
+执行sql：drop index [id] on OPERATION_LOG;
+----[2017-05-11 17:24:27,231]---- 
+----[2017-05-11 17:24:27,235]---- 
+执行sql：drop index [sid] on OPERATION_LOG;
+----[2017-05-11 17:24:27,235]---- 
+----[2017-05-11 17:24:27,238]---- 
+执行sql：drop index [sysj] on OPERATION_LOG;
+----[2017-05-11 17:24:27,238]---- 
+----[2017-05-11 17:24:27,240]---- 
+执行sql：drop index [tid] on OPERATION_LOG;
+----[2017-05-11 17:24:27,240]---- 
+----[2017-05-11 17:24:27,243]---- 
+执行sql：drop index [xx] on OPERATION_LOG;
+----[2017-05-11 17:24:27,243]---- 
+----[2017-05-11 17:24:27,250]---- 
+执行sql：drop index [jh] on PLANS;
+----[2017-05-11 17:24:27,250]---- 
+----[2017-05-11 17:24:27,253]---- 
+执行sql：drop index [s] on PLANS;
+----[2017-05-11 17:24:27,253]---- 
+----[2017-05-11 17:24:27,282]---- 
+执行sql：drop index [kt] on PROJECT_ASSIGN;
+----[2017-05-11 17:24:27,282]---- 
+----[2017-05-11 17:24:27,284]---- 
+执行sql：drop index [id] on PROJECT_ASSIGN;
+----[2017-05-11 17:24:27,284]---- 
+----[2017-05-11 17:24:27,287]---- 
+执行sql：drop index [tid] on PROJECT_ASSIGN;
+----[2017-05-11 17:24:27,287]---- 
+----[2017-05-11 17:24:27,289]---- 
+执行sql：drop index [xy] on PROJECT_ASSIGN;
+----[2017-05-11 17:24:27,289]---- 
+----[2017-05-11 17:24:27,291]---- 
+执行sql：drop index [yx] on PROJECT_ASSIGN;
+----[2017-05-11 17:24:27,291]---- 
+----[2017-05-11 17:24:27,293]---- 
+执行sql：drop index [jh] on PROJECTS;
+----[2017-05-11 17:24:27,293]---- 
+----[2017-05-11 17:24:27,295]---- 
+执行sql：drop index [ly] on PROJECTS;
+----[2017-05-11 17:24:27,295]---- 
+----[2017-05-11 17:24:27,298]---- 
+执行sql：drop index [NonClusteredIndex-20170410-165134] on PROJECTS;
+----[2017-05-11 17:24:27,298]---- 
+----[2017-05-11 17:24:27,300]---- 
+执行sql：drop index [sid] on PROJECTS;
+----[2017-05-11 17:24:27,300]---- 
+----[2017-05-11 17:24:27,302]---- 
+执行sql：drop index [sj] on PROJECTS;
+----[2017-05-11 17:24:27,302]---- 
+----[2017-05-11 17:24:27,304]---- 
+执行sql：drop index [tid] on PROJECTS;
+----[2017-05-11 17:24:27,304]---- 
+----[2017-05-11 17:24:27,307]---- 
+执行sql：drop index [xx] on PROJECTS;
+----[2017-05-11 17:24:27,307]---- 
+----[2017-05-11 17:24:27,309]---- 
+执行sql：drop index [xz] on PROJECTS;
+----[2017-05-11 17:24:27,309]---- 
+----[2017-05-11 17:24:27,311]---- 
+执行sql：drop index [xzms] on PROJECTS;
+----[2017-05-11 17:24:27,311]---- 
+----[2017-05-11 17:24:27,313]---- 
+执行sql：drop index [zy] on PROJECTS;
+----[2017-05-11 17:24:27,313]---- 
+----[2017-05-11 17:24:27,315]---- 
+执行sql：drop index [s] on SPECIALTIES;
+----[2017-05-11 17:24:27,315]---- 
+----[2017-05-11 17:24:27,317]---- 
+执行sql：drop index [s] on STUDENTS_BASE;
+----[2017-05-11 17:24:27,317]---- 
+----[2017-05-11 17:24:27,319]---- 
+执行sql：drop index [idx] on STUDENTS_SPECIALTIES;
+----[2017-05-11 17:24:27,319]---- 
+----[2017-05-11 17:24:27,322]---- 
+执行sql：drop index [NonClusteredIndex-20170510-113109] on STUDENTS_SPECIALTIES;
+----[2017-05-11 17:24:27,322]---- 
+----[2017-05-11 17:24:27,324]---- 
+执行sql：drop index [s] on TEACHERS;
+----[2017-05-11 17:24:27,324]---- 
+----[2017-05-11 17:24:27,326]---- 
+执行sql：drop index [id] on WORDTYPE;
+----[2017-05-11 17:24:27,326]---- 
+----[2017-05-11 17:24:27,336]---- 
+执行sql：alter table LOGS drop constraint PK__LOGS__3214EC27182C9B23;
+----[2017-05-11 17:24:27,336]---- 
+----[2017-05-11 17:24:27,340]---- 
+执行sql：alter table TASK_ASSIGN drop constraint PK__TASK_ASS__3214EC2759FA5E80;
+----[2017-05-11 17:24:27,340]---- 
+----[2017-05-11 17:24:27,343]---- 
+执行sql：alter table THESIS_ASSIGN drop constraint PK__THESIS_A__3214EC276EF57B66;
+----[2017-05-11 17:24:27,343]---- 
+----[2017-05-11 17:24:29,105]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 二次答辩 int not null  default ('0');
+----[2017-05-11 17:24:29,105]---- 
+----[2017-05-11 17:24:29,114]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'二次答辩'
+----[2017-05-11 17:24:29,114]---- 
+----[2017-05-11 17:24:29,118]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 二次答辩记录 nvarchar(max) null ;
+----[2017-05-11 17:24:29,118]---- 
+----[2017-05-11 17:24:29,120]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'二次答辩记录'
+----[2017-05-11 17:24:29,120]---- 
+----[2017-05-11 17:24:29,122]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 二次答辩意见 nvarchar(1000) null ;
+----[2017-05-11 17:24:29,122]---- 
+----[2017-05-11 17:24:29,124]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'二次答辩意见'
+----[2017-05-11 17:24:29,124]---- 
+----[2017-05-11 17:24:29,127]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 开题报告 int null ;
+----[2017-05-11 17:24:29,127]---- 
+----[2017-05-11 17:24:29,128]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'开题报告'
+----[2017-05-11 17:24:29,128]---- 
+----[2017-05-11 17:24:29,131]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 中英文 int null ;
+----[2017-05-11 17:24:29,131]---- 
+----[2017-05-11 17:24:29,132]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'中英文'
+----[2017-05-11 17:24:29,132]---- 
+----[2017-05-11 17:24:29,134]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 指导记录 int null ;
+----[2017-05-11 17:24:29,134]---- 
+----[2017-05-11 17:24:29,136]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'指导记录'
+----[2017-05-11 17:24:29,136]---- 
+----[2017-05-11 17:24:29,138]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 学生论文 int null ;
+----[2017-05-11 17:24:29,138]---- 
+----[2017-05-11 17:24:29,140]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'学生论文'
+----[2017-05-11 17:24:29,140]---- 
+----[2017-05-11 17:24:29,143]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 中期报告 int null ;
+----[2017-05-11 17:24:29,143]---- 
+----[2017-05-11 17:24:29,144]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'中期报告'
+----[2017-05-11 17:24:29,144]---- 
+----[2017-05-11 17:24:29,147]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 文献综述 int null ;
+----[2017-05-11 17:24:29,147]---- 
+----[2017-05-11 17:24:29,149]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'文献综述'
+----[2017-05-11 17:24:29,149]---- 
+----[2017-05-11 17:24:29,150]---- 
+执行sql：alter table SYSTEMSET  add 盲评设置 int null ;
+----[2017-05-11 17:24:29,150]---- 
+----[2017-05-11 17:24:29,153]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'SYSTEMSET', @level2type=N'COLUMN',@level2name=N'盲评设置'
+----[2017-05-11 17:24:29,153]---- 
+----[2017-05-11 17:24:32,291]---- 
+执行sql：alter table LOGS  add 学校编号 int not null  default ((-1));
+----[2017-05-11 17:24:32,291]---- 
+----[2017-05-11 17:24:32,294]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'LOGS', @level2type=N'COLUMN',@level2name=N'学校编号'
+----[2017-05-11 17:24:32,294]---- 
+----[2017-05-11 17:24:32,354]---- 
+执行sql：alter table PROJECTS_LOGS  add 允许修改 int not null  default ((0));
+----[2017-05-11 17:24:32,354]---- 
+----[2017-05-11 17:24:32,355]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'PROJECTS_LOGS', @level2type=N'COLUMN',@level2name=N'允许修改'
+----[2017-05-11 17:24:32,355]---- 
+----[2017-05-11 17:24:32,357]---- 
+执行sql：alter table PROJECTS_LOGS  add 修改时间 datetime null ;
+----[2017-05-11 17:24:32,357]---- 
+----[2017-05-11 17:24:32,359]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'PROJECTS_LOGS', @level2type=N'COLUMN',@level2name=N'修改时间'
+----[2017-05-11 17:24:32,359]---- 
+----[2017-05-11 17:24:32,361]---- 
+执行sql：alter table TableNAME  add 科别 int null ;
+----[2017-05-11 17:24:32,361]---- 
+----[2017-05-11 17:24:32,362]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'TableNAME', @level2type=N'COLUMN',@level2name=N'科别'
+----[2017-05-11 17:24:32,362]---- 
+----[2017-05-11 17:24:32,426]---- 
+执行sql：alter table TASK_CONTENT  add 允许修改 int not null  default ((0));
+----[2017-05-11 17:24:32,426]---- 
+----[2017-05-11 17:24:32,428]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'TASK_CONTENT', @level2type=N'COLUMN',@level2name=N'允许修改'
+----[2017-05-11 17:24:32,428]---- 
+----[2017-05-11 17:24:32,431]---- 
+执行sql：alter table AnswersGroup  add 二次答辩组 int not null  default ('0');
+----[2017-05-11 17:24:32,431]---- 
+----[2017-05-11 17:24:32,432]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'AnswersGroup', @level2type=N'COLUMN',@level2name=N'二次答辩组'
+----[2017-05-11 17:24:32,432]---- 
+----[2017-05-11 17:24:32,434]---- 
+执行sql： alter table PROJECTS alter column 名称 nvarchar (3000) null  ;
+----[2017-05-11 17:24:32,434]---- 
+----[2017-05-11 17:24:32,435]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'PROJECTS', @level2type=N'COLUMN',@level2name=N'名称'
+----[2017-05-11 17:24:32,435]---- 
+----[2017-05-11 17:24:32,437]---- 
+执行sql： alter table PROJECTS alter column 研究方向 nvarchar (3000) null  ;
+----[2017-05-11 17:24:32,437]---- 
+----[2017-05-11 17:24:32,438]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'PROJECTS', @level2type=N'COLUMN',@level2name=N'研究方向'
+----[2017-05-11 17:24:32,438]---- 
+----[2017-05-11 17:24:32,440]---- 
+执行sql：alter table TASK_ASSIGN   add constraint [DF__TASK_ASSIG__学院编号__320C68B7] default  (((-1))) FOR [学院编号];
+----[2017-05-11 17:24:32,440]---- 
+----[2017-05-11 17:24:32,441]---- 
+执行sql：alter table TASK_ASSIGN   add constraint [DF__TASK_ASSIG__学校编号__33008CF0] default  (((-1))) FOR [学校编号];
+----[2017-05-11 17:24:32,441]---- 
+----[2017-05-11 17:24:32,443]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__开题报告__092A4EB5] default  (((0))) FOR [开题报告];
+----[2017-05-11 17:24:32,443]---- 
+----[2017-05-11 17:24:32,446]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_SP__中英文__0A1E72EE] default  (((0))) FOR [中英文];
+----[2017-05-11 17:24:32,446]---- 
+----[2017-05-11 17:24:32,448]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__指导记录__0B129727] default  (((0))) FOR [指导记录];
+----[2017-05-11 17:24:32,448]---- 
+----[2017-05-11 17:24:32,451]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__学生论文__0C06BB60] default  (((0))) FOR [学生论文];
+----[2017-05-11 17:24:32,451]---- 
+----[2017-05-11 17:24:32,454]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__中期报告__0CFADF99] default  (((0))) FOR [中期报告];
+----[2017-05-11 17:24:32,454]---- 
+----[2017-05-11 17:24:32,456]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_SPE__资格__6F9F86DC] default  (((0))) FOR [资格];
+----[2017-05-11 17:24:32,456]---- 
+----[2017-05-11 17:24:32,460]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__文献综述__0DEF03D2] default  (((0))) FOR [文献综述];
+----[2017-05-11 17:24:32,460]---- 
+----[2017-05-11 17:24:32,463]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__上传次数__3DD3211E] default  (((0))) FOR [上传次数];
+----[2017-05-11 17:24:32,463]---- 
+----[2017-05-11 17:24:32,465]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__检测次数__3EC74557] default  (((0))) FOR [检测次数];
+----[2017-05-11 17:24:32,465]---- 
+----[2017-05-11 17:24:32,478]---- 
+异常SQL语句为：alter table STUDENTS_SPECIALTIES   add constraint [df_studentsspecialties_二次答辩] default  (('0')) FOR [二次答辩];||异常信息为：System.Data.SqlClient.SqlException: 已在列上绑定了 DEFAULT。
+无法创建约束。请参阅前面的错误消息。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CompareDataBaseTool.DBHelper.ExecuteTrans(List`1 sqlList, String& errorMsg) 位置 f:\源代码TFS\CPKFB\CompareDataBaseTool\CompareDataBaseTool\DBHelper.cs:行号 78
+----[2017-05-11 17:24:32,478]---- 
+----[2017-05-11 17:25:36,023]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 二次答辩 int not null  default ('0');
+----[2017-05-11 17:25:36,023]---- 
+----[2017-05-11 17:25:36,024]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'二次答辩'
+----[2017-05-11 17:25:36,024]---- 
+----[2017-05-11 17:25:36,026]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 二次答辩记录 nvarchar(max) null ;
+----[2017-05-11 17:25:36,026]---- 
+----[2017-05-11 17:25:36,027]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'二次答辩记录'
+----[2017-05-11 17:25:36,027]---- 
+----[2017-05-11 17:25:36,029]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 二次答辩意见 nvarchar(1000) null ;
+----[2017-05-11 17:25:36,029]---- 
+----[2017-05-11 17:25:36,029]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'二次答辩意见'
+----[2017-05-11 17:25:36,029]---- 
+----[2017-05-11 17:25:36,031]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 开题报告 int null ;
+----[2017-05-11 17:25:36,031]---- 
+----[2017-05-11 17:25:36,032]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'开题报告'
+----[2017-05-11 17:25:36,032]---- 
+----[2017-05-11 17:25:36,034]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 中英文 int null ;
+----[2017-05-11 17:25:36,034]---- 
+----[2017-05-11 17:25:36,035]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'中英文'
+----[2017-05-11 17:25:36,035]---- 
+----[2017-05-11 17:25:36,036]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 指导记录 int null ;
+----[2017-05-11 17:25:36,036]---- 
+----[2017-05-11 17:25:36,037]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'指导记录'
+----[2017-05-11 17:25:36,037]---- 
+----[2017-05-11 17:25:36,039]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 学生论文 int null ;
+----[2017-05-11 17:25:36,039]---- 
+----[2017-05-11 17:25:36,040]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'学生论文'
+----[2017-05-11 17:25:36,040]---- 
+----[2017-05-11 17:25:36,041]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 中期报告 int null ;
+----[2017-05-11 17:25:36,041]---- 
+----[2017-05-11 17:25:36,043]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'中期报告'
+----[2017-05-11 17:25:36,043]---- 
+----[2017-05-11 17:25:36,044]---- 
+执行sql：alter table STUDENTS_SPECIALTIES  add 文献综述 int null ;
+----[2017-05-11 17:25:36,044]---- 
+----[2017-05-11 17:25:36,045]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'STUDENTS_SPECIALTIES', @level2type=N'COLUMN',@level2name=N'文献综述'
+----[2017-05-11 17:25:36,045]---- 
+----[2017-05-11 17:25:36,047]---- 
+执行sql：alter table SYSTEMSET  add 盲评设置 int null ;
+----[2017-05-11 17:25:36,047]---- 
+----[2017-05-11 17:25:36,049]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'SYSTEMSET', @level2type=N'COLUMN',@level2name=N'盲评设置'
+----[2017-05-11 17:25:36,049]---- 
+----[2017-05-11 17:25:36,978]---- 
+执行sql：alter table LOGS  add 学校编号 int not null  default ((-1));
+----[2017-05-11 17:25:36,978]---- 
+----[2017-05-11 17:25:36,980]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'LOGS', @level2type=N'COLUMN',@level2name=N'学校编号'
+----[2017-05-11 17:25:36,980]---- 
+----[2017-05-11 17:25:37,020]---- 
+执行sql：alter table PROJECTS_LOGS  add 允许修改 int not null  default ((0));
+----[2017-05-11 17:25:37,020]---- 
+----[2017-05-11 17:25:37,021]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'PROJECTS_LOGS', @level2type=N'COLUMN',@level2name=N'允许修改'
+----[2017-05-11 17:25:37,021]---- 
+----[2017-05-11 17:25:37,022]---- 
+执行sql：alter table PROJECTS_LOGS  add 修改时间 datetime null ;
+----[2017-05-11 17:25:37,022]---- 
+----[2017-05-11 17:25:37,023]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'PROJECTS_LOGS', @level2type=N'COLUMN',@level2name=N'修改时间'
+----[2017-05-11 17:25:37,023]---- 
+----[2017-05-11 17:25:37,024]---- 
+执行sql：alter table TableNAME  add 科别 int null ;
+----[2017-05-11 17:25:37,024]---- 
+----[2017-05-11 17:25:37,025]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'TableNAME', @level2type=N'COLUMN',@level2name=N'科别'
+----[2017-05-11 17:25:37,025]---- 
+----[2017-05-11 17:25:37,083]---- 
+执行sql：alter table TASK_CONTENT  add 允许修改 int not null  default ((0));
+----[2017-05-11 17:25:37,083]---- 
+----[2017-05-11 17:25:37,084]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'TASK_CONTENT', @level2type=N'COLUMN',@level2name=N'允许修改'
+----[2017-05-11 17:25:37,084]---- 
+----[2017-05-11 17:25:37,087]---- 
+执行sql：alter table AnswersGroup  add 二次答辩组 int not null  default ('0');
+----[2017-05-11 17:25:37,087]---- 
+----[2017-05-11 17:25:37,089]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'AnswersGroup', @level2type=N'COLUMN',@level2name=N'二次答辩组'
+----[2017-05-11 17:25:37,089]---- 
+----[2017-05-11 17:25:37,090]---- 
+执行sql： alter table PROJECTS alter column 名称 nvarchar (3000) null  ;
+----[2017-05-11 17:25:37,090]---- 
+----[2017-05-11 17:25:37,091]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'PROJECTS', @level2type=N'COLUMN',@level2name=N'名称'
+----[2017-05-11 17:25:37,091]---- 
+----[2017-05-11 17:25:37,092]---- 
+执行sql： alter table PROJECTS alter column 研究方向 nvarchar (3000) null  ;
+----[2017-05-11 17:25:37,092]---- 
+----[2017-05-11 17:25:37,093]---- 
+执行sql：EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N' ' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'PROJECTS', @level2type=N'COLUMN',@level2name=N'研究方向'
+----[2017-05-11 17:25:37,093]---- 
+----[2017-05-11 17:26:04,506]---- 
+异常SQL语句为：alter table TASK_ASSIGN add CONSTRAINT [PK__TASK_ASSIGN__08162EEB] PRIMARY KEY CLUSTERED ( ID asc   ) WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY];||异常信息为：System.Data.SqlClient.SqlException: 表 'TASK_ASSIGN' 已经有针对它定义的主键。
+无法创建约束。请参阅前面的错误消息。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CompareDataBaseTool.DBHelper.ExecuteTrans(List`1 sqlList, String& errorMsg) 位置 f:\源代码TFS\CPKFB\CompareDataBaseTool\CompareDataBaseTool\DBHelper.cs:行号 78
+----[2017-05-11 17:26:04,506]---- 
+----[2017-05-11 17:26:26,327]---- 
+执行sql： create  NONCLUSTERED  index [idx_nc_xid_xname] on ACADEMIES (学院编号 desc,学院名称 asc ,学校编号 asc );
+----[2017-05-11 17:26:26,327]---- 
+----[2017-05-11 17:26:26,329]---- 
+执行sql：drop index [idx] on STUDENTS_SPECIALTIES;
+----[2017-05-11 17:26:26,329]---- 
+----[2017-05-11 17:26:26,689]---- 
+执行sql： create  NONCLUSTERED  index [idx_c_sid_kid] on STUDENTS_SPECIALTIES (SID asc ,课题编号 asc ,学院编号 asc );
+----[2017-05-11 17:26:26,689]---- 
+----[2017-05-11 17:26:26,692]---- 
+执行sql：drop index [NonClusteredIndex-20170510-113109] on STUDENTS_SPECIALTIES;
+----[2017-05-11 17:26:26,692]---- 
+----[2017-05-11 17:26:26,927]---- 
+执行sql： create  NONCLUSTERED  index [idx_nc_xyid] on STUDENTS_SPECIALTIES (学院编号 asc );
+----[2017-05-11 17:26:26,927]---- 
+----[2017-05-11 17:26:27,738]---- 
+执行sql： create  NONCLUSTERED  index [projectId] on STUDENTS_SPECIALTIES (课题编号 desc);
+----[2017-05-11 17:26:27,738]---- 
+----[2017-05-11 17:26:27,970]---- 
+执行sql： create  NONCLUSTERED  index [idx_nc_sid] on STUDENTS_BASE (SID asc ,学校编号 asc ,计划编号 asc );
+----[2017-05-11 17:26:27,970]---- 
+----[2017-05-11 17:26:27,971]---- 
+执行sql：drop index [s] on STUDENTS_BASE;
+----[2017-05-11 17:26:27,971]---- 
+----[2017-05-11 17:26:28,178]---- 
+执行sql： create  NONCLUSTERED  index [idx_nc_sid_xid_jid] on STUDENTS_BASE (学校编号 asc ,计划编号 asc ,SID asc );
+----[2017-05-11 17:26:28,178]---- 
+----[2017-05-11 17:26:28,298]---- 
+执行sql： create  NONCLUSTERED  index [大地盾] on PROJECTS_PROPOSALS (SID asc );
+----[2017-05-11 17:26:28,298]---- 
+----[2017-05-11 17:26:28,299]---- 
+执行sql：drop index [xx] on OPERATION_LOG;
+----[2017-05-11 17:26:28,299]---- 
+----[2017-05-11 17:26:28,592]---- 
+执行sql： create  NONCLUSTERED  index [idx_nc_sid_oid_kid_sid] on OPERATION_LOG (学校编号 asc ,操作类型 asc ,课题编号 asc ,ID desc,TID asc ,SID asc ,审核 asc ,提交时间 asc );
+----[2017-05-11 17:26:28,592]---- 
+----[2017-05-11 17:26:51,459]---- 
+执行sql：alter table AnswersGroup drop constraint DF__AnswersGr__二次答辩组__65370702;
+----[2017-05-11 17:26:51,459]---- 
+----[2017-05-11 17:26:51,462]---- 
+执行sql：alter table STUDENTS_SPECIALTIES drop constraint DF__STUDENTS_S__二次答辩__6166761E;
+----[2017-05-11 17:26:51,462]---- 
+----[2017-05-11 17:26:51,465]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [df_studentsspecialties_二次答辩] default  (('0')) FOR [二次答辩];
+----[2017-05-11 17:26:51,465]---- 
+----[2017-05-11 17:27:50,340]---- 
+执行sql：alter table PROJECT_ASSIGN drop constraint DF__PROJECT_AS__学校编号__14270015;
+----[2017-05-11 17:27:50,340]---- 
+----[2017-05-11 17:27:50,342]---- 
+执行sql：alter table PROJECT_ASSIGN drop constraint DF__PROJECT_AS__学院编号__151B244E;
+----[2017-05-11 17:27:50,342]---- 
+----[2017-05-11 17:27:50,345]---- 
+执行sql：alter table PROJECTS drop constraint DF__PROJECTS__允许修改__19DFD96B;
+----[2017-05-11 17:27:50,345]---- 
+----[2017-05-11 17:27:50,347]---- 
+执行sql：alter table PROJECTS_PROPOSALS drop constraint DF__PROJECTS_P__检测状态__208CD6FA;
+----[2017-05-11 17:27:50,347]---- 
+----[2017-05-11 17:27:50,351]---- 
+执行sql：alter table PROJECTS_THESES drop constraint DF__PROJECTS_T__检测状态__25518C17;
+----[2017-05-11 17:27:50,351]---- 
+----[2017-05-11 17:27:50,353]---- 
+执行sql：alter table PROJECTS_TRANSLATIONS drop constraint DF__PROJECTS_T__检测状态__29221CFB;
+----[2017-05-11 17:27:50,353]---- 
+----[2017-05-11 17:27:50,356]---- 
+执行sql：alter table ReviewStudent drop constraint DF__ReviewStud__课题编号__2B0A656D;
+----[2017-05-11 17:27:50,356]---- 
+----[2017-05-11 17:27:50,358]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWEI__指导成绩__2BFE89A6;
+----[2017-05-11 17:27:50,358]---- 
+----[2017-05-11 17:27:50,361]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWEI__评阅成绩__2CF2ADDF;
+----[2017-05-11 17:27:50,361]---- 
+----[2017-05-11 17:27:50,364]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWEI__答辩成绩__2DE6D218;
+----[2017-05-11 17:27:50,364]---- 
+----[2017-05-11 17:27:50,367]---- 
+执行sql：alter table SCORINGWEIGHT drop constraint DF__SCORINGWE__评阅专家成__2EDAF651;
+----[2017-05-11 17:27:50,367]---- 
+----[2017-05-11 17:27:50,369]---- 
+执行sql：alter table SPECIALTIES drop constraint DF__SPECIALTIES__科别__32AB8735;
+----[2017-05-11 17:27:50,369]---- 
+----[2017-05-11 17:27:50,371]---- 
+执行sql：alter table STUDENTS_SPECIALTIES drop constraint DF__STUDENTS_SPE__资格__395884C4;
+----[2017-05-11 17:27:50,371]---- 
+----[2017-05-11 17:27:50,375]---- 
+执行sql：alter table STUDENTS_SPECIALTIES drop constraint DF__STUDENTS_S__上传次数__3B40CD36;
+----[2017-05-11 17:27:50,375]---- 
+----[2017-05-11 17:27:50,377]---- 
+执行sql：alter table STUDENTS_SPECIALTIES drop constraint DF__STUDENTS_S__检测次数__3C34F16F;
+----[2017-05-11 17:27:50,377]---- 
+----[2017-05-11 17:27:50,380]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__成绩模式__3D2915A8;
+----[2017-05-11 17:27:50,380]---- 
+----[2017-05-11 17:27:50,383]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__课题模式__3E1D39E1;
+----[2017-05-11 17:27:50,383]---- 
+----[2017-05-11 17:27:50,385]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__任务书模式__3F115E1A;
+----[2017-05-11 17:27:50,385]---- 
+----[2017-05-11 17:27:50,387]---- 
+执行sql：alter table SYSTEMSET drop constraint DF__SYSTEMSET__任务书提交__40058253;
+----[2017-05-11 17:27:50,387]---- 
+----[2017-05-11 17:27:50,390]---- 
+执行sql：alter table TASK_ASSIGN drop constraint DF__TASK_ASSIG__学院编号__40F9A68C;
+----[2017-05-11 17:27:50,390]---- 
+----[2017-05-11 17:27:50,393]---- 
+执行sql：alter table TASK_ASSIGN drop constraint DF__TASK_ASSIG__学校编号__41EDCAC5;
+----[2017-05-11 17:27:50,393]---- 
+----[2017-05-11 17:27:50,395]---- 
+执行sql：alter table TEACHERS drop constraint DF__TEACHERS__评阅专家__498EEC8D;
+----[2017-05-11 17:27:50,395]---- 
+----[2017-05-11 17:27:50,398]---- 
+执行sql：alter table TEACHERS drop constraint DF__TEACHERS__教师类型__4A8310C6;
+----[2017-05-11 17:27:50,398]---- 
+----[2017-05-11 17:27:50,400]---- 
+执行sql：alter table THESIS_ASSIGN drop constraint DF__THESIS_ASS__学院编号__4B7734FF;
+----[2017-05-11 17:27:50,400]---- 
+----[2017-05-11 17:27:50,403]---- 
+执行sql：alter table THESIS_ASSIGN drop constraint DF__THESIS_ASS__学校编号__4C6B5938;
+----[2017-05-11 17:27:50,403]---- 
+----[2017-05-11 17:27:50,405]---- 
+执行sql：alter table LOGS drop constraint DF__LOGS__学校编号__625A9A57;
+----[2017-05-11 17:27:50,405]---- 
+----[2017-05-11 17:27:50,408]---- 
+执行sql：alter table PROJECTS_LOGS drop constraint DF__PROJECTS_L__允许修改__634EBE90;
+----[2017-05-11 17:27:50,408]---- 
+----[2017-05-11 17:27:50,411]---- 
+执行sql：alter table TASK_CONTENT drop constraint DF__TASK_CONTE__允许修改__6442E2C9;
+----[2017-05-11 17:27:50,411]---- 
+----[2017-05-11 17:27:50,413]---- 
+执行sql：alter table TASK_ASSIGN   add constraint [DF__TASK_ASSIG__学院编号__320C68B7] default  (((-1))) FOR [学院编号];
+----[2017-05-11 17:27:50,413]---- 
+----[2017-05-11 17:27:50,416]---- 
+执行sql：alter table TASK_ASSIGN   add constraint [DF__TASK_ASSIG__学校编号__33008CF0] default  (((-1))) FOR [学校编号];
+----[2017-05-11 17:27:50,416]---- 
+----[2017-05-11 17:27:50,418]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__开题报告__092A4EB5] default  (((0))) FOR [开题报告];
+----[2017-05-11 17:27:50,418]---- 
+----[2017-05-11 17:27:50,421]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_SP__中英文__0A1E72EE] default  (((0))) FOR [中英文];
+----[2017-05-11 17:27:50,421]---- 
+----[2017-05-11 17:27:50,423]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__指导记录__0B129727] default  (((0))) FOR [指导记录];
+----[2017-05-11 17:27:50,423]---- 
+----[2017-05-11 17:27:50,426]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__学生论文__0C06BB60] default  (((0))) FOR [学生论文];
+----[2017-05-11 17:27:50,426]---- 
+----[2017-05-11 17:27:50,428]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__中期报告__0CFADF99] default  (((0))) FOR [中期报告];
+----[2017-05-11 17:27:50,428]---- 
+----[2017-05-11 17:27:50,431]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_SPE__资格__6F9F86DC] default  (((0))) FOR [资格];
+----[2017-05-11 17:27:50,431]---- 
+----[2017-05-11 17:27:50,433]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__文献综述__0DEF03D2] default  (((0))) FOR [文献综述];
+----[2017-05-11 17:27:50,433]---- 
+----[2017-05-11 17:27:50,435]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__上传次数__3DD3211E] default  (((0))) FOR [上传次数];
+----[2017-05-11 17:27:50,435]---- 
+----[2017-05-11 17:27:50,438]---- 
+执行sql：alter table STUDENTS_SPECIALTIES   add constraint [DF__STUDENTS_S__检测次数__3EC74557] default  (((0))) FOR [检测次数];
+----[2017-05-11 17:27:50,438]---- 
+----[2017-05-11 17:27:50,440]---- 
+执行sql：alter table PROJECTS   add constraint [DF__PROJECTS__允许修改__5C57A83E] default  (((0))) FOR [允许修改];
+----[2017-05-11 17:27:50,440]---- 
+----[2017-05-11 17:27:50,443]---- 
+执行sql：alter table SYSTEMSET   add constraint [DF__SYSTEMSET__成绩模式__0D64F3ED] default  (((0))) FOR [成绩模式];
+----[2017-05-11 17:27:50,443]---- 
+----[2017-05-11 17:27:50,446]---- 
+执行sql：alter table SYSTEMSET   add constraint [DF__SYSTEMSET__课题模式__0E591826] default  (((0))) FOR [课题模式];
+----[2017-05-11 17:27:50,446]---- 
+----[2017-05-11 17:27:50,448]---- 
+执行sql：alter table SYSTEMSET   add constraint [DF__SYSTEMSET__盲评设置__0EE3280B] default  (((0))) FOR [盲评设置];
+----[2017-05-11 17:27:50,448]---- 
+----[2017-05-11 17:27:50,450]---- 
+执行sql：alter table SYSTEMSET   add constraint [DF__SYSTEMSET__任务书模式__4A38F803] default  (((1))) FOR [任务书模式];
+----[2017-05-11 17:27:50,450]---- 
+----[2017-05-11 17:27:50,453]---- 
+执行sql：alter table SYSTEMSET   add constraint [DF__SYSTEMSET__任务书提交__5B638405] default  (((1))) FOR [任务书提交模式];
+----[2017-05-11 17:27:50,453]---- 
+----[2017-05-11 17:27:50,455]---- 
+执行sql：alter table THESIS_ASSIGN   add constraint [DF__THESIS_ASS__学院编号__33F4B129] default  (((-1))) FOR [学院编号];
+----[2017-05-11 17:27:50,455]---- 
+----[2017-05-11 17:27:50,458]---- 
+执行sql：alter table THESIS_ASSIGN   add constraint [DF__THESIS_ASS__学校编号__34E8D562] default  (((-1))) FOR [学校编号];
+----[2017-05-11 17:27:50,458]---- 
+----[2017-05-11 17:27:50,460]---- 
+执行sql：alter table LOGS   add constraint [DF__LOGS__学校编号__62108194] default  (((-1))) FOR [学校编号];
+----[2017-05-11 17:27:50,460]---- 
+----[2017-05-11 17:27:50,463]---- 
+执行sql：alter table PROJECTS_LOGS   add constraint [DF_PROJECTS_LOGS_允许修改] default  (((0))) FOR [允许修改];
+----[2017-05-11 17:27:50,463]---- 
+----[2017-05-11 17:28:34,958]---- 
+执行sql：drop table [1281qiaqizhongjie];
+----[2017-05-11 17:28:34,958]---- 
+----[2017-05-11 17:28:34,962]---- 
+执行sql：drop table [1281zhongqi];
+----[2017-05-11 17:28:34,962]---- 
+----[2017-05-11 17:28:34,964]---- 
+执行sql：drop table [1281zhongqizongjie];
+----[2017-05-11 17:28:34,964]---- 
+----[2017-05-11 17:28:34,967]---- 
+执行sql：drop index [s] on ACADEMIES;
+----[2017-05-11 17:28:34,967]---- 
+----[2017-05-11 17:28:34,969]---- 
+执行sql：drop index [22] on DICTIONARIES;
+----[2017-05-11 17:28:34,969]---- 
+----[2017-05-11 17:28:34,971]---- 
+执行sql：drop index [33] on DICTIONARIES;
+----[2017-05-11 17:28:34,971]---- 
+----[2017-05-11 17:28:34,973]---- 
+执行sql：drop index [44] on DICTIONARIES;
+----[2017-05-11 17:28:34,973]---- 
+----[2017-05-11 17:28:34,976]---- 
+执行sql：drop index [s] on DICTIONARIES;
+----[2017-05-11 17:28:34,976]---- 
+----[2017-05-11 17:28:34,978]---- 
+执行sql：drop index [s] on OPERATE_LOG;
+----[2017-05-11 17:28:34,978]---- 
+----[2017-05-11 17:28:37,675]---- 
+执行sql：drop index [kt] on OPERATION_LOG;
+----[2017-05-11 17:28:37,675]---- 
+----[2017-05-11 17:28:37,677]---- 
+执行sql：drop index [cz] on OPERATION_LOG;
+----[2017-05-11 17:28:37,677]---- 
+----[2017-05-11 17:28:37,679]---- 
+执行sql：drop index [id] on OPERATION_LOG;
+----[2017-05-11 17:28:37,679]---- 
+----[2017-05-11 17:28:37,682]---- 
+执行sql：drop index [sid] on OPERATION_LOG;
+----[2017-05-11 17:28:37,682]---- 
+----[2017-05-11 17:28:37,684]---- 
+执行sql：drop index [sysj] on OPERATION_LOG;
+----[2017-05-11 17:28:37,684]---- 
+----[2017-05-11 17:28:37,686]---- 
+执行sql：drop index [tid] on OPERATION_LOG;
+----[2017-05-11 17:28:37,686]---- 
+----[2017-05-11 17:28:37,693]---- 
+执行sql：drop index [jh] on PLANS;
+----[2017-05-11 17:28:37,693]---- 
+----[2017-05-11 17:28:37,695]---- 
+执行sql：drop index [s] on PLANS;
+----[2017-05-11 17:28:37,695]---- 
+----[2017-05-11 17:28:37,720]---- 
+执行sql：drop index [kt] on PROJECT_ASSIGN;
+----[2017-05-11 17:28:37,720]---- 
+----[2017-05-11 17:28:37,723]---- 
+执行sql：drop index [id] on PROJECT_ASSIGN;
+----[2017-05-11 17:28:37,723]---- 
+----[2017-05-11 17:28:37,725]---- 
+执行sql：drop index [tid] on PROJECT_ASSIGN;
+----[2017-05-11 17:28:37,725]---- 
+----[2017-05-11 17:28:37,727]---- 
+执行sql：drop index [xy] on PROJECT_ASSIGN;
+----[2017-05-11 17:28:37,727]---- 
+----[2017-05-11 17:28:37,728]---- 
+执行sql：drop index [yx] on PROJECT_ASSIGN;
+----[2017-05-11 17:28:37,728]---- 
+----[2017-05-11 17:28:37,731]---- 
+执行sql：drop index [jh] on PROJECTS;
+----[2017-05-11 17:28:37,731]---- 
+----[2017-05-11 17:28:37,733]---- 
+执行sql：drop index [ly] on PROJECTS;
+----[2017-05-11 17:28:37,733]---- 
+----[2017-05-11 17:28:37,736]---- 
+执行sql：drop index [NonClusteredIndex-20170410-165134] on PROJECTS;
+----[2017-05-11 17:28:37,736]---- 
+----[2017-05-11 17:28:37,738]---- 
+执行sql：drop index [sid] on PROJECTS;
+----[2017-05-11 17:28:37,738]---- 
+----[2017-05-11 17:28:37,739]---- 
+执行sql：drop index [sj] on PROJECTS;
+----[2017-05-11 17:28:37,739]---- 
+----[2017-05-11 17:28:37,742]---- 
+执行sql：drop index [tid] on PROJECTS;
+----[2017-05-11 17:28:37,742]---- 
+----[2017-05-11 17:28:37,744]---- 
+执行sql：drop index [xx] on PROJECTS;
+----[2017-05-11 17:28:37,744]---- 
+----[2017-05-11 17:28:37,746]---- 
+执行sql：drop index [xz] on PROJECTS;
+----[2017-05-11 17:28:37,746]---- 
+----[2017-05-11 17:28:37,749]---- 
+执行sql：drop index [xzms] on PROJECTS;
+----[2017-05-11 17:28:37,749]---- 
+----[2017-05-11 17:28:37,751]---- 
+执行sql：drop index [zy] on PROJECTS;
+----[2017-05-11 17:28:37,751]---- 
+----[2017-05-11 17:28:37,753]---- 
+执行sql：drop index [s] on SPECIALTIES;
+----[2017-05-11 17:28:37,753]---- 
+----[2017-05-11 17:28:37,755]---- 
+执行sql：drop index [s] on TEACHERS;
+----[2017-05-11 17:28:37,755]---- 
+----[2017-05-11 17:28:37,757]---- 
+执行sql：drop index [id] on WORDTYPE;
+----[2017-05-11 17:28:37,757]---- 
+----[2017-05-11 17:29:03,343]---- 
+执行sql：create table PROJECTS_PROPOSALS_history( ID int identity(1,1) not null ,课题编号 int not null ,SID int not null ,目的 nvarchar(max) not null ,方案 nvarchar(max) not null ,方法 nvarchar(max) not null ,计划 nvarchar(max) not null ,创建时间 datetime not null  default (getdate()),审核 int not null  default ((0)),意见 nvarchar(max) null ,审核时间 datetime null ,检测状态 int null ,CONSTRAINT [PROJECTS_PROPOSALS_history_PK] PRIMARY KEY CLUSTERED ( ID ASC  ) WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]) 
+----[2017-05-11 17:29:03,343]---- 
+----[2017-05-11 17:29:03,347]---- 
+异常SQL语句为：alter table PROJECTS_PROPOSALS_history   add constraint [DF_PROJECTS_PROPOSALS_history_创建时间] default  ((getdate())) FOR [创建时间];||异常信息为：System.Data.SqlClient.SqlException: 已在列上绑定了 DEFAULT。
+无法创建约束。请参阅前面的错误消息。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CompareDataBaseTool.DBHelper.ExecuteTrans(List`1 sqlList, String& errorMsg) 位置 f:\源代码TFS\CPKFB\CompareDataBaseTool\CompareDataBaseTool\DBHelper.cs:行号 78
+----[2017-05-11 17:29:03,347]---- 
+----[2017-05-11 17:29:06,370]---- 
+执行sql：create table PROJECTS_PROPOSALS_history( ID int identity(1,1) not null ,课题编号 int not null ,SID int not null ,目的 nvarchar(max) not null ,方案 nvarchar(max) not null ,方法 nvarchar(max) not null ,计划 nvarchar(max) not null ,创建时间 datetime not null  default (getdate()),审核 int not null  default ((0)),意见 nvarchar(max) null ,审核时间 datetime null ,检测状态 int null ,CONSTRAINT [PROJECTS_PROPOSALS_history_PK] PRIMARY KEY CLUSTERED ( ID ASC  ) WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]) 
+----[2017-05-11 17:29:06,370]---- 
+----[2017-05-11 17:29:06,372]---- 
+异常SQL语句为：alter table PROJECTS_PROPOSALS_history   add constraint [DF_PROJECTS_PROPOSALS_history_创建时间] default  ((getdate())) FOR [创建时间];||异常信息为：System.Data.SqlClient.SqlException: 已在列上绑定了 DEFAULT。
+无法创建约束。请参阅前面的错误消息。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CompareDataBaseTool.DBHelper.ExecuteTrans(List`1 sqlList, String& errorMsg) 位置 f:\源代码TFS\CPKFB\CompareDataBaseTool\CompareDataBaseTool\DBHelper.cs:行号 78
+----[2017-05-11 17:29:06,372]---- 
+----[2017-05-11 17:30:14,848]---- 
+执行sql：create table PROJECTS_PROPOSALS_history( ID int identity(1,1) not null ,课题编号 int not null ,SID int not null ,目的 nvarchar(max) not null ,方案 nvarchar(max) not null ,方法 nvarchar(max) not null ,计划 nvarchar(max) not null ,创建时间 datetime not null  default (getdate()),审核 int not null  default ((0)),意见 nvarchar(max) null ,审核时间 datetime null ,检测状态 int null ,CONSTRAINT [PROJECTS_PROPOSALS_history_PK] PRIMARY KEY CLUSTERED ( ID ASC  ) WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]) 
+----[2017-05-11 17:30:14,848]---- 
+----[2017-05-11 17:30:14,850]---- 
+异常SQL语句为：alter table PROJECTS_PROPOSALS_history   add constraint [DF_PROJECTS_PROPOSALS_history_创建时间] default  ((getdate())) FOR [创建时间];||异常信息为：System.Data.SqlClient.SqlException: 已在列上绑定了 DEFAULT。
+无法创建约束。请参阅前面的错误消息。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 CompareDataBaseTool.DBHelper.ExecuteTrans(List`1 sqlList, String& errorMsg) 位置 f:\源代码TFS\CPKFB\CompareDataBaseTool\CompareDataBaseTool\DBHelper.cs:行号 78
+----[2017-05-11 17:30:14,850]---- 
+----[2017-05-11 17:34:50,550]---- 
+执行sql：alter table AnswersGroup   add constraint [df_answersgroup_二次答辩组] default  (('0')) FOR [二次答辩组];
+----[2017-05-11 17:34:50,550]---- 
+----[2017-05-11 17:44:39,972]---- 
+执行sql：IF  EXISTS (SELECT * FROM sys.views WHERE object_id = OBJECT_ID(N'CheckResult')) drop view CheckResult;
+----[2017-05-11 17:44:39,972]---- 
+----[2017-05-11 17:44:39,985]---- 
+执行sql：
+
+
+CREATE VIEW [dbo].[CheckResult]
+AS
+	select  si.sid,si.姓名 ,学生编号 ,si.[学校编号],si.[计划编号], si.[学院编号] ,si.[学院名称],si.[专业编号] ,si.[专业名称],p.名称 projectName,
+				d1.篇名 thesisName,t.姓名 zhidaoTeacher,
+				case when d.SID is null then '0' else '1' end tijiao,
+				d.审核  ,d.提交时间 ,si.课题编号 ,检测结果, 服务ID,文件ID,si.[ID]
+	from [STUINFO] si
+		left join ( select t1.ID,t1.SID,t1.课题编号,t1.篇名,检测结果 ,服务ID,文件ID from 
+					 (select  no =row_number() over (partition by 课题编号 order by ID desc), ID,SID,课题编号,篇名 
+							from PROJECTS_THESES ) t1  							
+								left join PROJECTS_THESES_CHECK ptc on ptc.文件ID=t1.ID AND ptc.文件类型=1
+					 where t1.no=1 ) d1  on si.课题编号 = d1.课题编号 and si.sid=d1.sid 
+		 left join ( select * from 
+					 (select  no =row_number() over (partition by 课题编号 order by ID desc), tid,sid,课题编号,审核,提交时间 from operation_log where  操作类型=4) t 
+					  where no=1 ) d on si.课题编号 = d.课题编号 and si.sid=d.sid 
+		 left join teachers t on si.tid=t.tid    
+		 left join PROJECTS p on si.课题编号=p.课题编号
+
+
+----[2017-05-11 17:44:39,985]---- 
+----[2017-05-11 17:44:39,994]---- 
+执行sql：IF  EXISTS (SELECT * FROM sys.views WHERE object_id = OBJECT_ID(N'PROJECTSINFO')) drop view PROJECTSINFO;
+----[2017-05-11 17:44:39,994]---- 
+----[2017-05-11 17:44:39,999]---- 
+执行sql：CREATE  view  PROJECTSINFO
+as select PROJECTS.课题编号, PROJECTS.学校编号, PROJECTS.计划编号, PROJECTS.SID, PROJECTS.名称, PROJECTS.性质, PROJECTS.来源, PROJECTS.简介, 
+                      PROJECTS.要求, PROJECTS.工作量, PROJECTS.难易程度, PROJECTS.工作量要求, PROJECTS.选择模式, PROJECTS.最多人数, PROJECTS.创建时间, 
+                      PROJECTS.意见, PROJECTS.研究方向, PROJECTS.开始时间, PROJECTS.结束时间, PROJECTS.审核, PROJECTS.下发, PROJECTS.专业编号, PROJECTS.学院编号, 
+                      PROJECTS.是否选择, PROJECTS_TEACHERS.TID, PROJECTS_TEACHERS.是否组长, PROJECTS.允许修改,PROJECTS.TID AS TEAMTID
+FROM         PROJECTS INNER JOIN
+                      PROJECTS_TEACHERS ON PROJECTS.课题编号 = PROJECTS_TEACHERS.课题编号
+
+----[2017-05-11 17:44:39,999]---- 
+----[2017-05-11 17:44:40,008]---- 
+执行sql：IF  EXISTS (SELECT * FROM sys.views WHERE object_id = OBJECT_ID(N'STUINFO')) drop view STUINFO;
+----[2017-05-11 17:44:40,008]---- 
+----[2017-05-11 17:44:40,018]---- 
+执行sql：CREATE VIEW dbo.STUINFO
+AS
+SELECT     dbo.STUDENTS_SPECIALTIES.ID, dbo.STUDENTS_BASE.SID, dbo.STUDENTS_BASE.用户名, dbo.STUDENTS_BASE.密码, dbo.STUDENTS_BASE.学校编号, dbo.STUDENTS_BASE.计划编号, 
+                      dbo.STUDENTS_BASE.学生编号, dbo.STUDENTS_BASE.姓名, dbo.STUDENTS_BASE.班级, dbo.STUDENTS_BASE.电话, dbo.STUDENTS_BASE.邮箱, dbo.STUDENTS_BASE.状态, 
+                      dbo.STUDENTS_BASE.登录唯一标识, dbo.STUDENTS_BASE.创建时间, dbo.STUDENTS_SPECIALTIES.学院编号, dbo.STUDENTS_SPECIALTIES.专业编号, dbo.STUDENTS_SPECIALTIES.课题编号, 
+                      dbo.STUDENTS_SPECIALTIES.TID, dbo.STUDENTS_SPECIALTIES.允许答辩, dbo.STUDENTS_SPECIALTIES.指导成绩, dbo.STUDENTS_SPECIALTIES.评阅成绩, 
+                      dbo.STUDENTS_SPECIALTIES.答辩成绩, dbo.STUDENTS_SPECIALTIES.总成绩, dbo.SPECIALTIES.专业名称, dbo.ACADEMIES.学院名称, dbo.STUDENTS_SPECIALTIES.指导意见, 
+                      dbo.STUDENTS_SPECIALTIES.答辩意见, dbo.STUDENTS_SPECIALTIES.答辩成绩录入员ID, dbo.STUDENTS_SPECIALTIES.答辩成绩录入时间, dbo.STUDENTS_SPECIALTIES.指导成绩录入时间, 
+                      dbo.STUDENTS_SPECIALTIES.资格, dbo.STUDENTS_SPECIALTIES.答辩记录, dbo.STUDENTS_SPECIALTIES.评阅专家成绩, dbo.SPECIALTIES.学制, dbo.SPECIALTIES.层次, dbo.SPECIALTIES.科别, 
+                      dbo.STUDENTS_SPECIALTIES.上传次数, dbo.STUDENTS_SPECIALTIES.检测次数, dbo.STUDENTS_SPECIALTIES.二次答辩, dbo.STUDENTS_SPECIALTIES.最终成绩录入时间, 
+                      dbo.STUDENTS_SPECIALTIES.二次答辩记录, dbo.STUDENTS_SPECIALTIES.二次答辩意见, dbo.STUDENTS_SPECIALTIES.开题报告, dbo.STUDENTS_SPECIALTIES.中英文, 
+                      dbo.STUDENTS_SPECIALTIES.指导记录, dbo.STUDENTS_SPECIALTIES.学生论文, dbo.STUDENTS_SPECIALTIES.中期报告, dbo.STUDENTS_SPECIALTIES.文献综述
+FROM         dbo.STUDENTS_BASE INNER JOIN
+                      dbo.STUDENTS_SPECIALTIES ON dbo.STUDENTS_BASE.SID = dbo.STUDENTS_SPECIALTIES.SID INNER JOIN
+                      dbo.SPECIALTIES ON dbo.STUDENTS_SPECIALTIES.专业编号 = dbo.SPECIALTIES.专业编号 INNER JOIN
+                      dbo.ACADEMIES ON dbo.STUDENTS_SPECIALTIES.学院编号 = dbo.ACADEMIES.学院编号
+
+----[2017-05-11 17:44:40,018]---- 
+----[2017-05-11 17:44:40,028]---- 
+执行sql：IF  EXISTS (SELECT * FROM sys.views WHERE object_id = OBJECT_ID(N'StuProjectAuditView')) drop view StuProjectAuditView;
+----[2017-05-11 17:44:40,028]---- 
+----[2017-05-11 17:44:40,039]---- 
+执行sql：
+
+
+
+CREATE VIEW [dbo].[StuProjectAuditView] AS
+select 
+
+si.ID, si.SID, si.用户名, 
+                si.密码, 
+                si.学校编号, 
+                si.计划编号, 
+                si.学生编号,
+                 si.姓名, 
+                 si.班级, 
+                 si.电话, 
+                si.邮箱, 
+                si.状态, 
+                si.登录唯一标识, 
+                si.创建时间,
+                si.学院编号,
+                si.专业编号, 
+                si.课题编号, 
+                si.TID, si.允许答辩, 
+                si.指导成绩,
+                 si.评阅成绩, 
+                si.答辩成绩, 
+                si.总成绩, 
+                si.专业名称, 
+                si.学院名称, 
+                si.指导意见, 
+                si.答辩意见, 
+                si.答辩成绩录入员ID,
+                si.答辩成绩录入时间, 
+                si.指导成绩录入时间, 
+                si.资格, 
+                si.答辩记录, 
+                si.评阅专家成绩,
+                si.二次答辩,
+                '学生数'=1,
+                '资格数'=case when si.[资格]=0 then 1 else 0 end,
+        '确认双选'= cast(
+                case when pp.[教师确认]=1 or ((pp.[教师确认] is null or pp.[教师确认]=-1) and ol.[审核]=1) 
+                then 1 else 0  end as int) ,
+        '等待审核'=
+                case when pp.[教师确认]=0 or ((pp.[教师确认] is null or pp.[教师确认]=-1) and ol.[审核]=0) 
+                 then 1 else 0 end,
+        '未选课题'=                
+                case when pp.[教师确认]=-1 and ol.[审核] is null then 1 --盲选不通过后未继续选题
+                when pp.[教师确认]=-1 and ol.[审核]=-1 then 1 --盲选不通过后继续选题还未通过
+                when pp.[教师确认] is null and ol.[审核]=-1 then 1 --未盲选，直接申报不通过
+                when pp.[教师确认] is null and ol.[审核] is null then 1
+                else 0 end,
+         '确认双选时间'=  case when pp.[教师确认]=1 then pp.创建时间
+						  when (pp.[教师确认] is null or pp.[教师确认]=-1) and ol.[审核]=1 then ol.审阅时间
+						  else null end  
+
+from (SELECT   dbo.STUDENTS_SPECIALTIES.ID, dbo.STUDENTS_BASE.SID, dbo.STUDENTS_BASE.用户名, 
+                dbo.STUDENTS_BASE.密码, dbo.STUDENTS_BASE.学校编号, dbo.STUDENTS_BASE.计划编号, 
+                dbo.STUDENTS_BASE.学生编号, dbo.STUDENTS_BASE.姓名, dbo.STUDENTS_BASE.班级, dbo.STUDENTS_BASE.电话, 
+                dbo.STUDENTS_BASE.邮箱, dbo.STUDENTS_BASE.状态, dbo.STUDENTS_BASE.登录唯一标识, 
+                dbo.STUDENTS_BASE.创建时间, dbo.STUDENTS_SPECIALTIES.学院编号, dbo.STUDENTS_SPECIALTIES.专业编号, 
+                dbo.STUDENTS_SPECIALTIES.课题编号, dbo.STUDENTS_SPECIALTIES.TID, dbo.STUDENTS_SPECIALTIES.允许答辩, 
+                dbo.STUDENTS_SPECIALTIES.指导成绩, dbo.STUDENTS_SPECIALTIES.评阅成绩, 
+                dbo.STUDENTS_SPECIALTIES.答辩成绩, dbo.STUDENTS_SPECIALTIES.总成绩, dbo.SPECIALTIES.专业名称, 
+                dbo.ACADEMIES.学院名称, dbo.STUDENTS_SPECIALTIES.指导意见, dbo.STUDENTS_SPECIALTIES.答辩意见, 
+                dbo.STUDENTS_SPECIALTIES.答辩成绩录入员ID, dbo.STUDENTS_SPECIALTIES.答辩成绩录入时间, 
+                dbo.STUDENTS_SPECIALTIES.指导成绩录入时间, dbo.STUDENTS_SPECIALTIES.资格, 
+                dbo.STUDENTS_SPECIALTIES.答辩记录, dbo.STUDENTS_SPECIALTIES.评阅专家成绩, dbo.SPECIALTIES.学制, 
+                dbo.SPECIALTIES.层次, dbo.SPECIALTIES.科别, dbo.STUDENTS_SPECIALTIES.上传次数, 
+                dbo.STUDENTS_SPECIALTIES.检测次数,dbo.STUDENTS_SPECIALTIES.二次答辩
+FROM      dbo.STUDENTS_BASE INNER JOIN
+                dbo.STUDENTS_SPECIALTIES ON dbo.STUDENTS_BASE.SID = dbo.STUDENTS_SPECIALTIES.SID INNER JOIN
+                dbo.SPECIALTIES ON dbo.STUDENTS_SPECIALTIES.专业编号 = dbo.SPECIALTIES.专业编号 INNER JOIN
+                dbo.ACADEMIES ON dbo.STUDENTS_SPECIALTIES.学院编号 = dbo.ACADEMIES.学院编号) si
+left join (select sid,课题编号,审核,审阅时间 from [OPERATION_LOG] where ID in
+    (select MAX(ID) FROM [OPERATION_LOG] WHERE  [操作类型]=6 GROUP BY [学校编号],[课题编号],[操作类型])) ol on si.[课题编号]=ol.[课题编号]
+left join (select * from (select *,row_number() over (partition by [SID],[学校编号],[专业编号] order by [ID] DESC) rowNum from PROJECTS_POOLS ) p where rowNum =1) pp
+    on si.[SID]=pp.sid and si.[学校编号]=pp.[学校编号] and si.[专业编号]=pp.[专业编号]
+
+
+
+
+
+
+
+----[2017-05-11 17:44:40,039]---- 
+----[2017-05-11 17:45:18,752]---- 
+执行sql：IF  EXISTS (SELECT * FROM sys.views WHERE object_id = OBJECT_ID(N'CheckResult')) drop view CheckResult;
+----[2017-05-11 17:45:18,752]---- 
+----[2017-05-11 17:45:18,762]---- 
+执行sql：
+
+
+CREATE VIEW [dbo].[CheckResult]
+AS
+	select  si.sid,si.姓名 ,学生编号 ,si.[学校编号],si.[计划编号], si.[学院编号] ,si.[学院名称],si.[专业编号] ,si.[专业名称],p.名称 projectName,
+				d1.篇名 thesisName,t.姓名 zhidaoTeacher,
+				case when d.SID is null then '0' else '1' end tijiao,
+				d.审核  ,d.提交时间 ,si.课题编号 ,检测结果, 服务ID,文件ID,si.[ID]
+	from [STUINFO] si
+		left join ( select t1.ID,t1.SID,t1.课题编号,t1.篇名,检测结果 ,服务ID,文件ID from 
+					 (select  no =row_number() over (partition by 课题编号 order by ID desc), ID,SID,课题编号,篇名 
+							from PROJECTS_THESES ) t1  							
+								left join PROJECTS_THESES_CHECK ptc on ptc.文件ID=t1.ID AND ptc.文件类型=1
+					 where t1.no=1 ) d1  on si.课题编号 = d1.课题编号 and si.sid=d1.sid 
+		 left join ( select * from 
+					 (select  no =row_number() over (partition by 课题编号 order by ID desc), tid,sid,课题编号,审核,提交时间 from operation_log where  操作类型=4) t 
+					  where no=1 ) d on si.课题编号 = d.课题编号 and si.sid=d.sid 
+		 left join teachers t on si.tid=t.tid    
+		 left join PROJECTS p on si.课题编号=p.课题编号
+
+
+----[2017-05-11 17:45:18,762]---- 
+----[2017-05-11 17:45:18,772]---- 
+执行sql：IF  EXISTS (SELECT * FROM sys.views WHERE object_id = OBJECT_ID(N'StuProjectAuditView')) drop view StuProjectAuditView;
+----[2017-05-11 17:45:18,772]---- 
+----[2017-05-11 17:45:18,783]---- 
+执行sql：
+
+
+
+CREATE VIEW [dbo].[StuProjectAuditView] AS
+select 
+
+si.ID, si.SID, si.用户名, 
+                si.密码, 
+                si.学校编号, 
+                si.计划编号, 
+                si.学生编号,
+                 si.姓名, 
+                 si.班级, 
+                 si.电话, 
+                si.邮箱, 
+                si.状态, 
+                si.登录唯一标识, 
+                si.创建时间,
+                si.学院编号,
+                si.专业编号, 
+                si.课题编号, 
+                si.TID, si.允许答辩, 
+                si.指导成绩,
+                 si.评阅成绩, 
+                si.答辩成绩, 
+                si.总成绩, 
+                si.专业名称, 
+                si.学院名称, 
+                si.指导意见, 
+                si.答辩意见, 
+                si.答辩成绩录入员ID,
+                si.答辩成绩录入时间, 
+                si.指导成绩录入时间, 
+                si.资格, 
+                si.答辩记录, 
+                si.评阅专家成绩,
+                si.二次答辩,
+                '学生数'=1,
+                '资格数'=case when si.[资格]=0 then 1 else 0 end,
+        '确认双选'= cast(
+                case when pp.[教师确认]=1 or ((pp.[教师确认] is null or pp.[教师确认]=-1) and ol.[审核]=1) 
+                then 1 else 0  end as int) ,
+        '等待审核'=
+                case when pp.[教师确认]=0 or ((pp.[教师确认] is null or pp.[教师确认]=-1) and ol.[审核]=0) 
+                 then 1 else 0 end,
+        '未选课题'=                
+                case when pp.[教师确认]=-1 and ol.[审核] is null then 1 --盲选不通过后未继续选题
+                when pp.[教师确认]=-1 and ol.[审核]=-1 then 1 --盲选不通过后继续选题还未通过
+                when pp.[教师确认] is null and ol.[审核]=-1 then 1 --未盲选，直接申报不通过
+                when pp.[教师确认] is null and ol.[审核] is null then 1
+                else 0 end,
+         '确认双选时间'=  case when pp.[教师确认]=1 then pp.创建时间
+						  when (pp.[教师确认] is null or pp.[教师确认]=-1) and ol.[审核]=1 then ol.审阅时间
+						  else null end  
+
+from (SELECT   dbo.STUDENTS_SPECIALTIES.ID, dbo.STUDENTS_BASE.SID, dbo.STUDENTS_BASE.用户名, 
+                dbo.STUDENTS_BASE.密码, dbo.STUDENTS_BASE.学校编号, dbo.STUDENTS_BASE.计划编号, 
+                dbo.STUDENTS_BASE.学生编号, dbo.STUDENTS_BASE.姓名, dbo.STUDENTS_BASE.班级, dbo.STUDENTS_BASE.电话, 
+                dbo.STUDENTS_BASE.邮箱, dbo.STUDENTS_BASE.状态, dbo.STUDENTS_BASE.登录唯一标识, 
+                dbo.STUDENTS_BASE.创建时间, dbo.STUDENTS_SPECIALTIES.学院编号, dbo.STUDENTS_SPECIALTIES.专业编号, 
+                dbo.STUDENTS_SPECIALTIES.课题编号, dbo.STUDENTS_SPECIALTIES.TID, dbo.STUDENTS_SPECIALTIES.允许答辩, 
+                dbo.STUDENTS_SPECIALTIES.指导成绩, dbo.STUDENTS_SPECIALTIES.评阅成绩, 
+                dbo.STUDENTS_SPECIALTIES.答辩成绩, dbo.STUDENTS_SPECIALTIES.总成绩, dbo.SPECIALTIES.专业名称, 
+                dbo.ACADEMIES.学院名称, dbo.STUDENTS_SPECIALTIES.指导意见, dbo.STUDENTS_SPECIALTIES.答辩意见, 
+                dbo.STUDENTS_SPECIALTIES.答辩成绩录入员ID, dbo.STUDENTS_SPECIALTIES.答辩成绩录入时间, 
+                dbo.STUDENTS_SPECIALTIES.指导成绩录入时间, dbo.STUDENTS_SPECIALTIES.资格, 
+                dbo.STUDENTS_SPECIALTIES.答辩记录, dbo.STUDENTS_SPECIALTIES.评阅专家成绩, dbo.SPECIALTIES.学制, 
+                dbo.SPECIALTIES.层次, dbo.SPECIALTIES.科别, dbo.STUDENTS_SPECIALTIES.上传次数, 
+                dbo.STUDENTS_SPECIALTIES.检测次数,dbo.STUDENTS_SPECIALTIES.二次答辩
+FROM      dbo.STUDENTS_BASE INNER JOIN
+                dbo.STUDENTS_SPECIALTIES ON dbo.STUDENTS_BASE.SID = dbo.STUDENTS_SPECIALTIES.SID INNER JOIN
+                dbo.SPECIALTIES ON dbo.STUDENTS_SPECIALTIES.专业编号 = dbo.SPECIALTIES.专业编号 INNER JOIN
+                dbo.ACADEMIES ON dbo.STUDENTS_SPECIALTIES.学院编号 = dbo.ACADEMIES.学院编号) si
+left join (select sid,课题编号,审核,审阅时间 from [OPERATION_LOG] where ID in
+    (select MAX(ID) FROM [OPERATION_LOG] WHERE  [操作类型]=6 GROUP BY [学校编号],[课题编号],[操作类型])) ol on si.[课题编号]=ol.[课题编号]
+left join (select * from (select *,row_number() over (partition by [SID],[学校编号],[专业编号] order by [ID] DESC) rowNum from PROJECTS_POOLS ) p where rowNum =1) pp
+    on si.[SID]=pp.sid and si.[学校编号]=pp.[学校编号] and si.[专业编号]=pp.[专业编号]
+
+
+
+
+
+
+
+----[2017-05-11 17:45:18,783]---- 

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dbList>
+  <db name="GP_DB" ip="192.168.100.218" userName="sa" pwd="sa" />
+  <db name="GP_DB_LINE" ip="192.168.100.66" userName="sa" pwd="sa" />
+</dbList>
