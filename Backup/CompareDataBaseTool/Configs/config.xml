@@ -6,9 +6,9 @@
     <!--即将升级数据库的配置-->
     <OldDbConfig>
       <!--老数据库的名称-->
-      <DbName>GP_DB_Test</DbName>
+      <DbName>Test</DbName>
       <!--数据所在主机IP地址-->
-      <DbHost>192.168.100.217</DbHost>
+      <DbHost>1270.0.1</DbHost>
       <!--登陆数据库的用户名-->
       <UserID>sa</UserID>
       <!--登陆数据库的用户名-->
@@ -17,9 +17,9 @@
     <!--新数据库的配置,即与老数据库进行对比的数据库-->
     <NewDbConfig>
       <!--数据库的名称-->
-      <DbName>GP_DB</DbName>
+      <DbName>Test2</DbName>
       <!--数据所在主机IP地址-->
-      <DbHost>192.168.100.218</DbHost>
+      <DbHost>127.0.0.1</DbHost>
       <!--登陆数据库的用户名-->
       <UserID>sa</UserID>
       <!--登陆数据库的用户名-->
